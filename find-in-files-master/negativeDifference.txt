@@ -1,0 +1,4 @@
+	69	                    model.getQuantity())));
+	80	                    domain.getQuantity())));
+	69	                    model.getQuantity())));
+	80	                    domain.getQuantity())));

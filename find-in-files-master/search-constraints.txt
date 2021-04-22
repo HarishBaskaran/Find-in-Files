@@ -1,0 +1,3 @@
+// there is only the "name" constraint and it is a Java Regex for file names
+
+// name=.+\.css

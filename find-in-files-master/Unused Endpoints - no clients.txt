@@ -1,0 +1,3165 @@
+-----------------------------------------------------
+1. word = [.getProxy().checkAccountNumberAvailability]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountNumberGet.java
+  153: isAvailable = client.getProxy().checkAccountNumberAvailability(tenantId, propertyId, accountNumber);
+
+-----------------------------------------------------
+-----------------------------------------------------
+2. word = [.getProxy().createInvoiceReport]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceGet.java
+  213: client.getProxy().createInvoiceReport(tenantId, propertyId, accountId, "", "false");
+
+-----------------------------------------------------
+-----------------------------------------------------
+3. word = [.getProxy().findAccountReceivableJobStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsJobStatus.java
+  29: accountUpdateResponse = clientTenantARSettingsJobStatus.getProxy().findAccountReceivableJobStatus(tenantId, propertyId, companyProfileId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+4. word = [.getProxy().findInvoices]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceGet.java
+  199: invoiceViews = client.getProxy().findInvoices(tenantId, propertyId, accountId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+5. word = [.getProxy().getAccount]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  196: accountSummary = client.getProxy().getAccount(tenantId, propertyId, id);
+  305: accountDetail = client.getProxy().getAccountDetails(tenantId, propertyId, id);
+  456: accountSummary = client.getProxy().getAccountByReferenceId(tenantId, propertyId, referenceId);
+  503: accountStatuses = client.getProxy().getAccountTypes(tenantId, propertyId);
+  583: accountTypes = client.getProxy().getAccountTypes(tenantId, propertyId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsPropertyStatus.java
+  31: tenantARPropertySettingStatuses = clientTenantARSettingsPropertyStatus.getProxy().getAccountReceivablePropertySettingStatus(tenantId, propertyId, companyProfileId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\company\ClientCompanyProfileGet.java
+  164: accountsReceivableSummary = client.getProxy().getAccountsReceivableSummary(tenantId, propertyId, id, params);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountingDateGet.java
+  72: date = client.getProxy().getAccountingDate(tenantId, propertyId, accountingDate);
+  127: accountingDates = client.getProxy().getAccountingDates(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+6. word = [.getProxy().getAccountByReferenceId]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  456: accountSummary = client.getProxy().getAccountByReferenceId(tenantId, propertyId, referenceId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+7. word = [.getProxy().getAccountClosableInfo]
+-----------------------------------------------------
+-----------------------------------------------------
+8. word = [.getProxy().getAccountDetails]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  305: accountDetail = client.getProxy().getAccountDetails(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+9. word = [.getProxy().getAccountReceivablePropertySettingStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsPropertyStatus.java
+  31: tenantARPropertySettingStatuses = clientTenantARSettingsPropertyStatus.getProxy().getAccountReceivablePropertySettingStatus(tenantId, propertyId, companyProfileId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+10. word = [.getProxy().getAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\company\ClientCompanyProfileGet.java
+  164: accountsReceivableSummary = client.getProxy().getAccountsReceivableSummary(tenantId, propertyId, id, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+11. word = [.getProxy().getAccountsByReferenceId]
+-----------------------------------------------------
+-----------------------------------------------------
+12. word = [.getProxy().getAccountStatuses]
+-----------------------------------------------------
+-----------------------------------------------------
+13. word = [.getProxy().getAccountTypes]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  503: accountStatuses = client.getProxy().getAccountTypes(tenantId, propertyId);
+  583: accountTypes = client.getProxy().getAccountTypes(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+14. word = [.getProxy().getFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioGet.java
+  212: folioDetail = client.getProxy().getFolio(tenantId, propertyId, accountId, id);
+  351: folioDetails = client.getProxy().getFolios(tenantId, propertyId, accountId, optionalParams);
+  488: folioBalances = client.getProxy().getFolioBalances(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+15. word = [.getProxy().getFolioBalances]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioGet.java
+  488: folioBalances = client.getProxy().getFolioBalances(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+16. word = [.getProxy().getFolios]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioGet.java
+  351: folioDetails = client.getProxy().getFolios(tenantId, propertyId, accountId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+17. word = [.getProxy().getFreeAllowanceCharges]
+-----------------------------------------------------
+-----------------------------------------------------
+18. word = [.getProxy().getGroupCompanyTaxExemptSettings]
+-----------------------------------------------------
+-----------------------------------------------------
+19. word = [.getProxy().getInvoiceById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceGet.java
+  140: invoiceView = client.getProxy().getInvoiceById(tenantId, propertyId, accountId, invoiceId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+20. word = [.getProxy().getInvoiceReportProgress]
+-----------------------------------------------------
+-----------------------------------------------------
+21. word = [.getProxy().getLedgerBalances]
+-----------------------------------------------------
+-----------------------------------------------------
+22. word = [.getProxy().getLodgingInformationForAccountById]
+-----------------------------------------------------
+-----------------------------------------------------
+23. word = [.getProxy().getNextArAccountNumber]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountNumberGet.java
+  67: nextAccountNumberInfo = client.getProxy().getNextArAccountNumber(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+24. word = [.getProxy().getNonInvoicedARDetail]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceGet.java
+  79: nonInvoicedARDetail = client.getProxy().getNonInvoicedARDetail(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+25. word = [.getProxy().getPaymentResult]
+-----------------------------------------------------
+-----------------------------------------------------
+26. word = [.getProxy().getPaymentSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\settings\payment\ClientAccountPaymentSettingsGet.java
+  117: paymentSettings = client.getProxy().getPaymentSettings(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+27. word = [.getProxy().getPostingRule]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\routing\rules\ClientRoutingRules.java
+  79: return accountServiceV1Client.getProxy().getPostingRule(tenantId, propertyId, accountId, postingRuleId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+28. word = [.getProxy().getPostingRules]
+-----------------------------------------------------
+-----------------------------------------------------
+29. word = [.getProxy().getTaxExemptSettingsByDate]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  529: taxExemptSettingsByDate = client.getProxy().getTaxExemptSettingsByDate(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+30. word = [.getProxy().getTenantDefaultSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsGet.java
+  32: tenantDefaultSettingsSummary = clientTenantARSettingsGet.getProxy().getTenantDefaultSettings(tenantId, propertyId, companyProfileId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+31. word = [.getProxy().getV1GroupCompanyTaxExemptSettings]
+-----------------------------------------------------
+-----------------------------------------------------
+32. word = [.getProxy().search]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\group\ClientGroupSearch.java
+  47: groups = client.getProxy().searchGroupByTerms(tenantId, propertyId, searchRequest);
+  59: return client.getProxy().searchGroupByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\agent\ClientAgentProfileGet.java
+  408: return client.getProxy().searchAgentProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\company\ClientCompanyProfileGet.java
+  359: return client.getProxy().searchCompanyProfileByCriteria(tenantId, propertyId, criteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\guest\ClientGuestProfileGet.java
+  359: return client.getProxy().searchGuestProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationSearch.java
+  43: return client.getProxy().searchReservationsByCriteria(tenantId, propertyId, searchCriteria);
+
+-----------------------------------------------------
+-----------------------------------------------------
+33. word = [.getProxy().search]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\group\ClientGroupSearch.java
+  47: groups = client.getProxy().searchGroupByTerms(tenantId, propertyId, searchRequest);
+  59: return client.getProxy().searchGroupByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\agent\ClientAgentProfileGet.java
+  408: return client.getProxy().searchAgentProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\company\ClientCompanyProfileGet.java
+  359: return client.getProxy().searchCompanyProfileByCriteria(tenantId, propertyId, criteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\guest\ClientGuestProfileGet.java
+  359: return client.getProxy().searchGuestProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationSearch.java
+  43: return client.getProxy().searchReservationsByCriteria(tenantId, propertyId, searchCriteria);
+
+-----------------------------------------------------
+-----------------------------------------------------
+34. word = [.getProxy().verifyCheckout]
+-----------------------------------------------------
+-----------------------------------------------------
+35. word = [.getProxy().getARAccountBalance]
+-----------------------------------------------------
+-----------------------------------------------------
+36. word = [.getProxy().getAutoRecurringItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\autorecurringitem\ClientAutoRecurringItem.java
+  90: return client.getProxy().getAutoRecurringItem(tenantId, propertyId, autoRecurringItemId);
+  111: return client.getProxy().getAutoRecurringItems(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+37. word = [.getProxy().getAutoRecurringItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\autorecurringitem\ClientAutoRecurringItem.java
+  111: return client.getProxy().getAutoRecurringItems(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+38. word = [.getProxy().getValidAutoRecurringItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\autorecurringitem\ClientAutoRecurringItem.java
+  101: return client.getProxy().getValidAutoRecurringItems(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+39. word = [.getProxy().getCompReason]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoGet.java
+  123: compInfo = client.getProxy().getCompReason(tenantId, propertyId, id);
+  147: compInfoList = client.getProxy().getCompReasons(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+40. word = [.getProxy().getCompReasonByCode]
+-----------------------------------------------------
+-----------------------------------------------------
+41. word = [.getProxy().getCompReasons]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoGet.java
+  147: compInfoList = client.getProxy().getCompReasons(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+42. word = [.getProxy().getCompThreshold]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoGet.java
+  172: compThreshold = client.getProxy().getCompThreshold(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+43. word = [.getProxy().getCreditTerms]
+-----------------------------------------------------
+-----------------------------------------------------
+44. word = [.getProxy().getAccountHistoryEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+45. word = [.getProxy().getInvoiceHistoryEvents]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\reporting\ClientAccountReceivableReportGet.java
+  30: return eventingServiceClient.getProxy().getInvoiceHistoryEventsForARNumber(tenantId, propertyId,
+
+-----------------------------------------------------
+-----------------------------------------------------
+46. word = [.getProxy().getInvoiceRawEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+47. word = [.getProxy().getPayAgentTransactionHistoryEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+48. word = [.getProxy().findHouseAccountCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryGet.java
+  154: categories = client.getProxy().findHouseAccountCategories(tenantId, propertyId, includeInternal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+49. word = [.getProxy().getHouseAccountCategoryById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryDelete.java
+  72: client.getProxy().getHouseAccountCategoryById(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryGet.java
+  75: category = client.getProxy().getHouseAccountCategoryById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+50. word = [.getProxy().getInventoryItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  116: item = inventoryClient.getProxy().getInventoryItem(tenantId, propertyId, id);
+  168: items = inventoryClient.getProxy().getInventoryItems(tenantId, propertyId, includeInternal);
+  187: return inventoryClient.getProxy().getInventoryItems(property.getTenantId(), property.getPropertyId(), INCLUDE_INTERNAL);
+
+-----------------------------------------------------
+-----------------------------------------------------
+51. word = [.getProxy().getInventoryItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  168: items = inventoryClient.getProxy().getInventoryItems(tenantId, propertyId, includeInternal);
+  187: return inventoryClient.getProxy().getInventoryItems(property.getTenantId(), property.getPropertyId(), INCLUDE_INTERNAL);
+
+-----------------------------------------------------
+-----------------------------------------------------
+52. word = [.getProxy().getAllLedgerSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ledger\ClientAccountLedgerSettingGet.java
+  33: return ledgerSettingsClient.getProxy().getAllLedgerSettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+53. word = [.getProxy().getLedgerSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ledger\ClientAccountLedgerSettingGet.java
+  25: return ledgerSettingsClient.getProxy().getLedgerSetting(tenantId, propertyId, ledgerSettingViewId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+54. word = [.getProxy().countRangeAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\elasticsearch\ClientMaintenanceAccount.java
+  24: return accountMaintenanceClient.getProxy().countRangeAccounts(tenantID, updatedSince, updatedUntil);
+
+-----------------------------------------------------
+-----------------------------------------------------
+55. word = [.getProxy().countUnindexedAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\elasticsearch\ClientMaintenanceAccount.java
+  32: return accountMaintenanceClient.getProxy().countUnindexedAccounts(tenantID);
+  41: return accountMaintenanceClient.getProxy().countUnindexedAccounts();
+
+-----------------------------------------------------
+-----------------------------------------------------
+56. word = [.getProxy().countUnindexedAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\elasticsearch\ClientMaintenanceAccount.java
+  32: return accountMaintenanceClient.getProxy().countUnindexedAccounts(tenantID);
+  41: return accountMaintenanceClient.getProxy().countUnindexedAccounts();
+
+-----------------------------------------------------
+-----------------------------------------------------
+57. word = [.getProxy().getPayTransaction]
+-----------------------------------------------------
+-----------------------------------------------------
+58. word = [.getProxy().getPaymentMethod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\method\ClientPaymentMethodGet.java
+  282: method = client.getProxy().getPaymentMethod(tenantId, propertyId, id);
+  329: methods = client.getProxy().getPaymentMethods(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+59. word = [.getProxy().getPaymentMethods]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\method\ClientPaymentMethodGet.java
+  329: methods = client.getProxy().getPaymentMethods(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+60. word = [.getProxy().getRestrictivePermissions]
+-----------------------------------------------------
+-----------------------------------------------------
+61. word = [.getProxy().getAuthDetails]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountAuthDetailsGet.java
+  74: authDetailResponse = client.getProxy().getAuthDetails(tenantId, propertyId, accountId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+62. word = [.getProxy().getEstimatedChargesByFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountEstimatedChargesGet.java
+  451: estimatedChargesByFolioResult = client.getProxy().getEstimatedChargesByFolio(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+63. word = [.getProxy().getEstimatedChargesByPaymentSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountEstimatedChargesGet.java
+  248: estimatedCharges = client.getProxy().getEstimatedChargesByPaymentSetting(tenantId, propertyId, id, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+64. word = [.getProxy().getEstimatedRoomCharges]
+-----------------------------------------------------
+-----------------------------------------------------
+65. word = [.getProxy().getPropertyRecurringChargesSummary]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeGet.java
+  226: recurringChargesPropertyView = client.getProxy().getPropertyRecurringChargesSummary(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+66. word = [.getProxy().getRecurringCharge]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\reporting\ClientRecurringChargesReportGet.java
+  73: recurringChargesReportResult = client.getProxy().getRecurringChargesReport(tenantId, propertyId, date);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountEstimatedChargesGet.java
+  428: return client.getProxy().getRecurringCharge(tenantId, propertyId, accountId, recurringChargeId, startDate, endDate);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeGet.java
+  95: recurringChargeViews = client.getProxy().getRecurringCharge(tenantId, propertyId, accountId, recurringChargeId, startDate, endDate);
+  179: recurringChargeViews = client.getProxy().getRecurringCharges(tenantId, propertyId, accountId, startDate, endDate);
+  273: progressStatusView = client.getProxy().getRecurringChargeProgress(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+67. word = [.getProxy().getRecurringChargeProgress]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeGet.java
+  273: progressStatusView = client.getProxy().getRecurringChargeProgress(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+68. word = [.getProxy().getRecurringCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\reporting\ClientRecurringChargesReportGet.java
+  73: recurringChargesReportResult = client.getProxy().getRecurringChargesReport(tenantId, propertyId, date);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeGet.java
+  179: recurringChargeViews = client.getProxy().getRecurringCharges(tenantId, propertyId, accountId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+69. word = [.getProxy().getRecurringChargesValidity]
+-----------------------------------------------------
+-----------------------------------------------------
+70. word = [.getProxy().cashierReport]
+-----------------------------------------------------
+-----------------------------------------------------
+71. word = [.getProxy().getAccountBalances]
+-----------------------------------------------------
+-----------------------------------------------------
+72. word = [.getProxy().getCashiersList]
+-----------------------------------------------------
+-----------------------------------------------------
+73. word = [.getProxy().getInventoryRecurringChargesReport]
+-----------------------------------------------------
+-----------------------------------------------------
+74. word = [.getProxy().getRecurringChargesReport]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\reporting\ClientRecurringChargesReportGet.java
+  73: recurringChargesReportResult = client.getProxy().getRecurringChargesReport(tenantId, propertyId, date);
+
+-----------------------------------------------------
+-----------------------------------------------------
+75. word = [.getProxy().getRevenueDetailReport]
+-----------------------------------------------------
+-----------------------------------------------------
+76. word = [.getProxy().getRevenueDetailReportByRoom]
+-----------------------------------------------------
+-----------------------------------------------------
+77. word = [.getProxy().getTaxExemptReport]
+-----------------------------------------------------
+-----------------------------------------------------
+78. word = [.getProxy().getTransactionReport]
+-----------------------------------------------------
+-----------------------------------------------------
+79. word = [.getProxy().getTransactionToDateTotals]
+-----------------------------------------------------
+-----------------------------------------------------
+80. word = [.getProxy().ledgerReport]
+-----------------------------------------------------
+-----------------------------------------------------
+81. word = [.getProxy().getTaxGroup]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  27: return client.getProxy().getTaxGroups(tenantId, propertyId);
+  43: return client.getProxy().getTaxGroup(tenantId, propertyId, taxGroupId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+82. word = [.getProxy().getTaxGroups]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  27: return client.getProxy().getTaxGroups(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+83. word = [.getProxy().getTransactionCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountingCategoryGet.java
+  206: categories = client.getProxy().getTransactionCategories(tenantId, propertyId, includeInternal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+84. word = [.getProxy().getTransactionCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountCategoryDelete.java
+  28: client.getProxy().getTransactionCategory(tenantId, propertyId, itemId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountingCategoryGet.java
+  157: category = client.getProxy().getTransactionCategory(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+85. word = [.getProxy().getActiveTransactionItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  179: return transactionItemClient.getProxy().getActiveTransactionItem(tenantId, propertyId, includeInternal, includeSubTransactionsItems, includeInactive);
+
+-----------------------------------------------------
+-----------------------------------------------------
+86. word = [.getProxy().getAssociatedTaxRules]
+-----------------------------------------------------
+-----------------------------------------------------
+87. word = [.getProxy().getTransactionItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemDelete.java
+  29: transactionItemClient.getProxy().getTransactionItem(tenantId, propertyId, itemId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  94: item = transactionItemClient.getProxy().getTransactionItem(tenantId, propertyId, id);
+  135: item = transactionItemClient.getProxy().getTransactionItemByComtrolValue(tenantId, propertyId, folioPostingCodes);
+  154: items = transactionItemClient.getProxy().getTransactionItems(tenantId, propertyId, includeInternal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+88. word = [.getProxy().getTransactionItemByComtrolValue]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  135: item = transactionItemClient.getProxy().getTransactionItemByComtrolValue(tenantId, propertyId, folioPostingCodes);
+
+-----------------------------------------------------
+-----------------------------------------------------
+89. word = [.getProxy().getTransactionItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemGet.java
+  154: items = transactionItemClient.getProxy().getTransactionItems(tenantId, propertyId, includeInternal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+90. word = [.getProxy().getTransactionSubCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryGet.java
+  209: subcategories = client.getProxy().getTransactionSubCategories(tenantId, propertyId, includeInternal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+91. word = [.getProxy().getTransactionSubCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryDelete.java
+  27: client.getProxy().getTransactionSubCategory(tenantId, properyId, subCategoryId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryGet.java
+  160: subcategory = client.getProxy().getTransactionSubCategory(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+92. word = [.getProxy().getAllComments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientComment.java
+  43: comments = client.getProxy().getAllComments(tenantId, associatedObjectId, commentTypeIds);
+
+-----------------------------------------------------
+-----------------------------------------------------
+93. word = [.getProxy().getAllCommentTypes]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeGet.java
+  107: commentTypes = client.getProxy().getAllCommentTypes(tenantId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+94. word = [.getProxy().getCommentById]
+-----------------------------------------------------
+-----------------------------------------------------
+95. word = [.getProxy().getCommentsByGuestProfileId]
+-----------------------------------------------------
+-----------------------------------------------------
+96. word = [.getProxy().getCommentTypeByApplicableObject]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeGet.java
+  155: commentTypes = client.getProxy().getCommentTypeByApplicableObject(tenantId, applicableObject);
+
+-----------------------------------------------------
+-----------------------------------------------------
+97. word = [.getProxy().getCommentTypeById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeGet.java
+  66: commentType = client.getProxy().getCommentTypeById(tenantId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+98. word = [.getProxy().getContactPreferences]
+-----------------------------------------------------
+-----------------------------------------------------
+99. word = [.getProxy().getStats]
+-----------------------------------------------------
+-----------------------------------------------------
+100. word = [.getProxy().getHistory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\auditlogging\ClientAccountAuditLogging.java
+  32: return auditClient.getProxy().getHistory(tenantId, propertyId, "accountsReceivable",
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\auditlogging\ClientProfileAuditLogging.java
+  47: return auditClient.getProxy().getHistory(tenantId, propertyId, profileType.toLowerCase(),
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationGet.java
+  826: historyEventsResult = client.getProxy().getHistory(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+101. word = [.getProxy().getPaymentInstrument]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  127: view = client.getProxy().getPaymentInstrument(tenantId, propertyId, accountId, id);
+  159: views = client.getProxy().getPaymentInstruments(tenantId, propertyId, accountId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+102. word = [.getProxy().getBasicPaymentInstrumentInformation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  100: view = client.getProxy().getBasicPaymentInstrumentInformation(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+103. word = [.getProxy().getFailedAuths]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  52: failedAuthViews = client.getProxy().getFailedAuths(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+104. word = [.getProxy().getIssuers]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  75: issuers = client.getProxy().getIssuers(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+105. word = [.getProxy().getPaymentGatewaySettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\gateway\ClientPaymentGatewayGet.java
+  65: view = client.getProxy().getPaymentGatewaySettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+106. word = [.getProxy().getPaymentInstrument]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  127: view = client.getProxy().getPaymentInstrument(tenantId, propertyId, accountId, id);
+  159: views = client.getProxy().getPaymentInstruments(tenantId, propertyId, accountId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+107. word = [.getProxy().getPaymentInstruments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  159: views = client.getProxy().getPaymentInstruments(tenantId, propertyId, accountId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+108. word = [.getProxy().getPendingPaymentInstruments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  187: views = client.getProxy().getPendingPaymentInstruments(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+109. word = [.getProxy().getTerminalId]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\gateway\ClientPaymentGatewayGet.java
+  118: terminalId = client.getProxy().getTerminalId(tenantId, propertyId, system);
+
+-----------------------------------------------------
+-----------------------------------------------------
+110. word = [.getProxy().getAllLostAndFoundItemsByProfileId]
+-----------------------------------------------------
+-----------------------------------------------------
+111. word = [.getProxy().getEvents]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationGet.java
+  613: reservationEventsResult = client.getProxy().getEvents(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+112. word = [.getProxy().getFoundItemById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  58: return client.getProxy().getFoundItemById(property.getTenantId(), property.getPropertyId(), id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+113. word = [.getProxy().getLostAndFoundHistoryEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+114. word = [.getProxy().getLostAndFoundItemById]
+-----------------------------------------------------
+-----------------------------------------------------
+115. word = [.getProxy().getLostAndFoundStatistics]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  74: return client.getProxy().getLostAndFoundStatistics(property.getTenantId(), property.getPropertyId());
+
+-----------------------------------------------------
+-----------------------------------------------------
+116. word = [.getProxy().getLostItemById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemGet.java
+  46: return client.getProxy().getLostItemById(tenantId, propertyId, lostItem.getId());
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  43: return client.getProxy().getLostItemById(property.getTenantId(), property.getPropertyId(), id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+117. word = [.getProxy().loadLostAndFoundFilter]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  79: return client.getProxy().loadLostAndFoundFilter(property.getTenantId(), property.getPropertyId());
+
+-----------------------------------------------------
+-----------------------------------------------------
+118. word = [.getProxy().retrieveJobs]
+-----------------------------------------------------
+-----------------------------------------------------
+119. word = [.getProxy().findProfilePreferenceCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryGet.java
+  61: categoryList =  preferenceManagementClient.getProxy().findProfilePreferenceCategories(tenantId);
+  109: categoryList =  preferenceManagementClient.getProxy().findProfilePreferenceCategories(tenantId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+120. word = [.getProxy().findProfilePreferences]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesGet.java
+  103: preferenceList =  preferenceManagementClient.getProxy().findProfilePreferences(tenantId, profileType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+121. word = [.getProxy().getProfilePreferenceById]
+-----------------------------------------------------
+-----------------------------------------------------
+122. word = [.getProxy().getProfilePreferenceCategoryById]
+-----------------------------------------------------
+-----------------------------------------------------
+123. word = [.getProxy().findInventoryBlockAllocations]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationGet.java
+  65: inventoryBlockAllocationResults = client.getProxy().findInventoryBlockAllocations(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+124. word = [.getProxy().getAvailableRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+125. word = [.getProxy().getGeneralAvailability]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\availability\ClientRoomAvailabilityGet.java
+  165: generalAvailabilityResult = client.getProxy().getGeneralAvailability(tenantId, propertyId, startDate, endDate, generalAvailabilityParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+126. word = [.getProxy().getGeneralAvailabilityReport]
+-----------------------------------------------------
+-----------------------------------------------------
+127. word = [.getProxy().getGroupAllocationById]
+-----------------------------------------------------
+-----------------------------------------------------
+128. word = [.getProxy().getGroupAllocationEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+129. word = [.getProxy().getInventoryBlockAllocationById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationGet.java
+  46: inventoryBlockAllocationResult = client.getProxy().getInventoryBlockAllocationById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+130. word = [.getProxy().getInventoryBlockAllocationEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+131. word = [.getProxy().getMatchingRoomsForAllocation]
+-----------------------------------------------------
+-----------------------------------------------------
+132. word = [.getProxy().getNonTransientAllocationsByDate]
+-----------------------------------------------------
+-----------------------------------------------------
+133. word = [.getProxy().getOtaAvailability]
+-----------------------------------------------------
+-----------------------------------------------------
+134. word = [.getProxy().getReservationAllocationById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientGroupAllocationCreateGet.java
+  37: return client.getProxy().getReservationAllocationById(tenantId, propertyId, allocationId, null);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationGet.java
+  109: reservationAllocationResult = client.getProxy().getReservationAllocationById(tenantId, propertyId, id, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+135. word = [.getProxy().getReservationAllocationEvents]
+-----------------------------------------------------
+-----------------------------------------------------
+136. word = [.getProxy().getReservationAllocationHistory]
+-----------------------------------------------------
+-----------------------------------------------------
+137. word = [.getProxy().getReservationAllocationRooms]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationGet.java
+  194: allocationRoomsListResult = client.getProxy().getReservationAllocationRooms(tenantId, propertyId, id, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+138. word = [.getProxy().getTapeChart]
+-----------------------------------------------------
+-----------------------------------------------------
+139. word = [.getProxy().findBeds]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\bed\ClientBedGet.java
+  146: beds = client.getProxy().findBeds(tenantId, propertyId, bedOptionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+140. word = [.getProxy().findBuildings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\building\ClientBuildingGet.java
+  137: buildings = client.getProxy().findBuildings(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+141. word = [.getProxy().findCancellationPolicies]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\cancellation\ClientCancellationPolicyGet.java
+  142: policies = client.getProxy().findCancellationPolicies(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+142. word = [.getProxy().findCanonicalOtaInterfaces]
+-----------------------------------------------------
+-----------------------------------------------------
+143. word = [.getProxy().findDepositPolicies]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyGet.java
+  84: deposits = client.getProxy().findDepositPolicies(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+144. word = [.getProxy().findFloors]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\floors\ClientFloorsGet.java
+  20: return client.getProxy().findFloors(tenantId, propertyId);
+  24: return client.getProxy().findFloors(property.getTenantId(), property.getPropertyId());
+
+-----------------------------------------------------
+-----------------------------------------------------
+145. word = [.getProxy().findGeneralAreas]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaGet.java
+  118: generalAreas = client.getProxy().findGeneralAreas(tenantId, propertyId, null);
+
+-----------------------------------------------------
+-----------------------------------------------------
+146. word = [.getProxy().findGeneralAreaTypes]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeGet.java
+  115: generalAreaTypes = client.getProxy().findGeneralAreaTypes(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+147. word = [.getProxy().findHousekeepingRoomConditions]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\condition\ClientHousekeepingConditionGet.java
+  123: housekeepingRoomConditions = client.getProxy().findHousekeepingRoomConditions(tenantId, propertyId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+148. word = [.getProxy().findHousekeepingSections]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionGet.java
+  150: housekeepingSectionDTOs = client.getProxy().findHousekeepingSections(tenantId, propertyId, optionalParams);
+  197: housekeepingSections = client.getProxy().findHousekeepingSectionsRaw(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+149. word = [.getProxy().findHousekeepingSectionsRaw]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionGet.java
+  197: housekeepingSections = client.getProxy().findHousekeepingSectionsRaw(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+150. word = [.getProxy().findMealPeriods]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodGet.java
+  118: mealPeriods = propertyClient.getProxy().findMealPeriods(tenantId, propertyId, null);
+
+-----------------------------------------------------
+-----------------------------------------------------
+151. word = [.getProxy().findNonBeddedRoomTypes]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeGet.java
+  145: return client.getProxy().findNonBeddedRoomTypes(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+152. word = [.getProxy().findOccupancyStatuses]
+-----------------------------------------------------
+-----------------------------------------------------
+153. word = [.getProxy().findOtaInterfaces]
+-----------------------------------------------------
+-----------------------------------------------------
+154. word = [.getProxy().findOtaInterfaces]
+-----------------------------------------------------
+-----------------------------------------------------
+155. word = [.getProxy().findOtaInterfaceSettings]
+-----------------------------------------------------
+-----------------------------------------------------
+156. word = [.getProxy().findOtaInterfaceUsages]
+-----------------------------------------------------
+-----------------------------------------------------
+157. word = [.getProxy().findOutlets]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletGet.java
+  165: outlets = client.getProxy().findOutlets(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+158. word = [.getProxy().findRoomClasses]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassGet.java
+  35: return client.getProxy().findRoomClasses(tenantId, propertyId, null);
+
+-----------------------------------------------------
+-----------------------------------------------------
+159. word = [.getProxy().findRoomFeatureCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryGet.java
+  118: roomFeatureCategories = client.getProxy().findRoomFeatureCategories(tenantId, propertyId, roomFeatureCategoryOptionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+160. word = [.getProxy().findRoomFeatures]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureGet.java
+  118: roomFeatureCategories = client.getProxy().findRoomFeatures(tenantId, propertyId, roomFeatureOptionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+161. word = [.getProxy().findRoomInventoryStatuses]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientInventoryStatus.java
+  26: return client.getProxy().findRoomInventoryStatuses(tenantId, propertyId, null);
+
+-----------------------------------------------------
+-----------------------------------------------------
+162. word = [.getProxy().findRooms]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  62: roomDTOs = client.getProxy().findRooms(tenantId, propertyId, null);
+
+-----------------------------------------------------
+-----------------------------------------------------
+163. word = [.getProxy().findRoomTypes]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeGet.java
+  135: roomTypes = client.getProxy().findRoomTypes(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+164. word = [.getProxy().findVIPStatuses]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusGet.java
+  137: vipStatuses = client.getProxy().findVIPStatuses(tenantId, propertyId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+165. word = [.getProxy().getAccountingDate]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountingDateGet.java
+  72: date = client.getProxy().getAccountingDate(tenantId, propertyId, accountingDate);
+  127: accountingDates = client.getProxy().getAccountingDates(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+166. word = [.getProxy().getAccountingDates]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountingDateGet.java
+  127: accountingDates = client.getProxy().getAccountingDates(tenantId, propertyId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+167. word = [.getProxy().getAllSources]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\source\ClientSourceGet.java
+  30: return client.getProxy().getAllSources(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+168. word = [.getProxy().getAnimals]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalGet.java
+  30: return client.getProxy().getAnimals(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+169. word = [.getProxy().getBedById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\bed\ClientBedGet.java
+  97: bed1 = client.getProxy().getBedById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+170. word = [.getProxy().getBuildingById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\building\ClientBuildingGet.java
+  88: building = client.getProxy().getBuildingById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+171. word = [.getProxy().getCallAllowanceSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\call\allowance\settings\ClientCallAllowanceSettingsGet.java
+  43: callAllowanceSettings = client.getProxy().getCallAllowanceSettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+172. word = [.getProxy().getCancellationPolicyById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\cancellation\ClientCancellationPolicyGet.java
+  92: policy = client.getProxy().getCancellationPolicyById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+173. word = [.getProxy().getCompleteProperty]
+-----------------------------------------------------
+-----------------------------------------------------
+174. word = [.getProxy().getDateRollStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+175. word = [.getProxy().getDateRollStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+176. word = [.getProxy().getDepositPolicyById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyGet.java
+  57: deposit = client.getProxy().getDepositPolicyById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+177. word = [.getProxy().getDiscrepantRooms]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  118: results = client.getProxy().getDiscrepantRooms(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+178. word = [.getProxy().getGeneralAreaById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaDelete.java
+  27: client.getProxy().getGeneralAreaById(tenantId, propertyId, generalAreaId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaGet.java
+  70: generalArea = client.getProxy().getGeneralAreaById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+179. word = [.getProxy().getGeneralAreaTypeById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeGet.java
+  68: generalAreaType = client.getProxy().getGeneralAreaTypeById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+180. word = [.getProxy().getHousekeepingRoomConditionById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\condition\ClientHousekeepingConditionGet.java
+  74: housekeepingRoomCondition = client.getProxy().getHousekeepingRoomConditionById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+181. word = [.getProxy().getHousekeepingSectionById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionGet.java
+  103: housekeepingSectionDTO = client.getProxy().getHousekeepingSectionById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+182. word = [.getProxy().getLostItemById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemGet.java
+  46: return client.getProxy().getLostItemById(tenantId, propertyId, lostItem.getId());
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  43: return client.getProxy().getLostItemById(property.getTenantId(), property.getPropertyId(), id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+183. word = [.getProxy().getLostItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemGet.java
+  65: return client.getProxy().getLostItems(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+184. word = [.getProxy().getMealPeriodById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodGet.java
+  69: mealPeriod = propertyClient.getProxy().getMealPeriodById(tenantId, propertyId, mealPeriodId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+185. word = [.getProxy().getOccupancyStatusById]
+-----------------------------------------------------
+-----------------------------------------------------
+186. word = [.getProxy().getOpenAccountingDates]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountingDateGet.java
+  174: accountingDates = client.getProxy().getOpenAccountingDates(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+187. word = [.getProxy().getOtaInterfaceById]
+-----------------------------------------------------
+-----------------------------------------------------
+188. word = [.getProxy().getOutletById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletGet.java
+  116: outlet = client.getProxy().getOutletById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+189. word = [.getProxy().getPetSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalGet.java
+  38: return client.getProxy().getPetSetting(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+190. word = [.getProxy().getPropertyById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertyGet.java
+  145: property = client.getProxy().getPropertyById(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+191. word = [.getProxy().getPropertyDate]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientPropertyDateGet.java
+  65: propertyDate = client.getProxy().getPropertyDate(tenantId, propertyId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\roll\ClientDateRollRequest.java
+  86: } while (client.getProxy().getPropertyDate(tenantId, propertyId).equals(startDate));
+
+-----------------------------------------------------
+-----------------------------------------------------
+192. word = [.getProxy().getRecentItemsTimePeriod]
+-----------------------------------------------------
+-----------------------------------------------------
+193. word = [.getProxy().getReservationBookingNotice]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\booking\notice\ClientReservationBookingNoticeSettings.java
+  41: return propertyManagementClient.getProxy().getReservationBookingNoticeSettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+194. word = [.getProxy().getReservationBookingNoticeSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\booking\notice\ClientReservationBookingNoticeSettings.java
+  41: return propertyManagementClient.getProxy().getReservationBookingNoticeSettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+195. word = [.getProxy().getRoomAllocationType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  174: roomAllocationTypeSetting = client.getProxy().getRoomAllocationType(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+196. word = [.getProxy().getRoomById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  43: roomDTO = client.getProxy().getRoomById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+197. word = [.getProxy().getRoomClassById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassDelete.java
+  28: client.getProxy().getRoomClassById(tenantId, propertyId, roomClassId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassGet.java
+  25: return client.getProxy().getRoomClassById(tenantId, propertyId, roomClassId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+198. word = [.getProxy().getRoomDTOById]
+-----------------------------------------------------
+-----------------------------------------------------
+199. word = [.getProxy().getRoomFeatureById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureGet.java
+  69: roomFeature1 = client.getProxy().getRoomFeatureById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+200. word = [.getProxy().getRoomFeatureCategoryById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryGet.java
+  69: roomFeatureCategory1 = client.getProxy().getRoomFeatureCategoryById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+201. word = [.getProxy().getRoomInventoryStatusById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientInventoryStatus.java
+  34: return client.getProxy().getRoomInventoryStatusById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+202. word = [.getProxy().getRoomMetrics]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  80: metrics = client.getProxy().getRoomMetrics(tenantId, propertyId, LocalDate.now(), includeNonBeddedRoomType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+203. word = [.getProxy().getRoomsByRange]
+-----------------------------------------------------
+-----------------------------------------------------
+204. word = [.getProxy().getRoomsNotReadyForCheckin]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  99: roomIds = client.getProxy().getRoomsNotReadyForCheckin(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+205. word = [.getProxy().getRoomStatusByRoomId]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  143: status = client.getProxy().getRoomStatusByRoomId(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+206. word = [.getProxy().getRoomTypeById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeGet.java
+  88: roomType = client.getProxy().getRoomTypeById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+207. word = [.getProxy().getRoomTypes]
+-----------------------------------------------------
+-----------------------------------------------------
+208. word = [.getProxy().getSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertySettings.java
+  23: return managementClient.getProxy().getSettings(tenantId, propertyId, path);
+
+-----------------------------------------------------
+-----------------------------------------------------
+209. word = [.getProxy().getStorageLocationById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\storage\location\ClientStorageLocationGet.java
+  61: client.getProxy().getStorageLocationById(tenantId, propertyId, storageLocation.getId());
+
+-----------------------------------------------------
+-----------------------------------------------------
+210. word = [.getProxy().getStorageLocations]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\storage\location\ClientStorageLocationGet.java
+  75: return client.getProxy().getStorageLocations(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+211. word = [.getProxy().getVIPStatusById]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusGet.java
+  88: vipStatus = client.getProxy().getVIPStatusById(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+212. word = [.getProxy().getAvailableRates]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\availability\ClientAvailableRateGet.java
+  320: availableRatePlans = client.getProxy().getAvailableRates(tenantId, propertyId, arrivalDate, departureDate, adults, children, featuredRatePlanIds, ratePlanIds,
+
+-----------------------------------------------------
+-----------------------------------------------------
+213. word = [.getProxy().getAvailableRates]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\availability\ClientAvailableRateGet.java
+  320: availableRatePlans = client.getProxy().getAvailableRates(tenantId, propertyId, arrivalDate, departureDate, adults, children, featuredRatePlanIds, ratePlanIds,
+
+-----------------------------------------------------
+-----------------------------------------------------
+214. word = [.getProxy().getAvailableUpgrades]
+-----------------------------------------------------
+-----------------------------------------------------
+215. word = [.getProxy().getComponentBundle]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\bundle\ClientComponentBundleGet.java
+  71: componentBundle = client.getProxy().getComponentBundle(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+216. word = [.getProxy().getDetailedRateCalendars]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarGet.java
+  254: rateCalendarDetails = client.getProxy().getDetailedRateCalendars(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+217. word = [.getProxy().getDetailedRatePlans]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanGet.java
+  220: ratePlanDetails = client.getProxy().getDetailedRatePlans(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+218. word = [.getProxy().getGeneralAvailability]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\availability\ClientRoomAvailabilityGet.java
+  165: generalAvailabilityResult = client.getProxy().getGeneralAvailability(tenantId, propertyId, startDate, endDate, generalAvailabilityParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+219. word = [.getProxy().getGeneralAvailabilityReport]
+-----------------------------------------------------
+-----------------------------------------------------
+220. word = [.getProxy().getGroupRate]
+-----------------------------------------------------
+-----------------------------------------------------
+221. word = [.getProxy().getManagedRates]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\availability\ClientManagedRateGet.java
+  108: managedRatesResult = client.getProxy().getManagedRates(tenantId, propertyId, startDate, endDate, false);
+
+-----------------------------------------------------
+-----------------------------------------------------
+222. word = [.getProxy().getOtaRates]
+-----------------------------------------------------
+-----------------------------------------------------
+223. word = [.getProxy().getRateCalendar]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarGet.java
+  65: rateCalendarSummaries = client.getProxy().getRateCalendars(tenantId, propertyId);
+  206: rateCalendarSummary = client.getProxy().getRateCalendar(tenantId, propertyId, calendarId, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+224. word = [.getProxy().getRateCalendars]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarGet.java
+  65: rateCalendarSummaries = client.getProxy().getRateCalendars(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+225. word = [.getProxy().getRateCategories]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\category\ClientRateCategoryGet.java
+  64: rateDetails = client.getProxy().getRateCategories(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+226. word = [.getProxy().getRatePlan]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanGet.java
+  122: ratePlanDetail = client.getProxy().getRatePlan(tenantId, propertyId, id, params);
+  171: ratePlanSummaries = client.getProxy().getRatePlans(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+227. word = [.getProxy().getRatePlans]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanGet.java
+  171: ratePlanSummaries = client.getProxy().getRatePlans(tenantId, propertyId, params);
+
+-----------------------------------------------------
+-----------------------------------------------------
+228. word = [.getProxy().getRatePlansForAllProperties]
+-----------------------------------------------------
+-----------------------------------------------------
+229. word = [.getProxy().getRateStrategies]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\strategy\ClientRateStrategyGet.java
+  153: rateStrategyDetails = client.getProxy().getRateStrategies(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+230. word = [.getProxy().getRateStrategy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\strategy\ClientRateStrategyGet.java
+  102: rateStrategyDetail = client.getProxy().getRateStrategy(tenantId, propertyId, rateStrategyDetailId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+231. word = [.getProxy().getReportRates]
+-----------------------------------------------------
+-----------------------------------------------------
+232. word = [.getProxy().getSetup]
+-----------------------------------------------------
+-----------------------------------------------------
+233. word = [.getProxy().getUpgradeRates]
+-----------------------------------------------------
+-----------------------------------------------------
+234. word = [.getProxy().getDevices]
+-----------------------------------------------------
+-----------------------------------------------------
+235. word = [.getProxy().saveV1GroupCompanyTaxExemptSettings]
+-----------------------------------------------------
+-----------------------------------------------------
+236. word = [.getProxy().saveGroupCompanyTaxExemptSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountSave.java
+  436: groupCompanyTaxExemptSettings1 = client.getProxy().saveGroupCompanyTaxExemptSettings(tenantId, propertyId, id, groupCompanyTaxExemptSettings);
+
+-----------------------------------------------------
+-----------------------------------------------------
+237. word = [.getProxy().getAccountBalances]
+-----------------------------------------------------
+-----------------------------------------------------
+238. word = [.getProxy().createPostingRule]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\routing\rules\ClientRoutingRules.java
+  34: return accountServiceV1Client.getProxy().createPostingRule(tenantId, propertyId, accountId, postingRuleDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+239. word = [.getProxy().getFoliosForAccounts]
+-----------------------------------------------------
+-----------------------------------------------------
+240. word = [.getProxy().createTenantDefaultSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsCreate.java
+  30: tenantDefaultSettingsSummary1 = clientTenantARSettingsCreate.getProxy().createTenantDefaultSettings(tenantId, propertyId, companyProfileId, tenantDefaultSettingsSummary);
+
+-----------------------------------------------------
+-----------------------------------------------------
+241. word = [.getProxy().saveTaxExemptSettingsByDate]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountSave.java
+  324: taxExemptSettingsByDate1 = client.getProxy().saveTaxExemptSettingsByDate(tenantId, propertyId, id, taxExemptSettingsByDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+242. word = [.getProxy().transferFolioLines]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostTransfer.java
+  251: lineItemViews = client.getProxy().transferFolioLines(tenantId, propertyId, accountId, lineItemTransfer);
+
+-----------------------------------------------------
+-----------------------------------------------------
+243. word = [.getProxy().applyInvoicePayments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceApplyPayment.java
+  82: invoiceViews = client.getProxy().applyInvoicePayments(tenantId, propertyId, accountId, applyInvoicePaymentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+244. word = [.getProxy().authAllCardsOnAccount]
+-----------------------------------------------------
+-----------------------------------------------------
+245. word = [.getProxy().getTransactionHistory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostTransfer.java
+  272: transactionHistory = client.getProxy().getTransactionHistory(tenantId, propertyId, transactionHistoryIds);
+
+-----------------------------------------------------
+-----------------------------------------------------
+246. word = [.getProxy().transferAmountToAccount]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostTransfer.java
+  475: lineItemViews = client.getProxy().transferAmountToAccount(tenantId, propertyId, accountId, amountTransfer);
+
+-----------------------------------------------------
+-----------------------------------------------------
+247. word = [.getProxy().getTotalSpentForAccounts]
+-----------------------------------------------------
+-----------------------------------------------------
+248. word = [.getProxy().calculateChargeTaxAmount]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxAmountGet.java
+  97: chargeTaxAmountInfo = client.getProxy().calculateChargeTaxAmount(tenantId, propertyId, accountId, chargeTaxAmountRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+249. word = [.getProxy().refundInvoicePayment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceRefundPayment.java
+  86: invoiceView = client.getProxy().refundInvoicePayment(tenantId, propertyId, accountId, invoiceId, invoicePaymentRefund);
+
+-----------------------------------------------------
+-----------------------------------------------------
+250. word = [.getProxy().savePaymentSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountSave.java
+  169: paymentSettingList = client.getProxy().savePaymentSettings(tenantId, propertyId, id, paymentSettings);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\settings\payment\ClientAccountPaymentSettingsCreate.java
+  78: einstellungenZahlung = client.getProxy().savePaymentSettings(tenantId, propertyId, accountId, paymentSettings);
+
+-----------------------------------------------------
+-----------------------------------------------------
+251. word = [.getProxy().applyTenantDefaultSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsApply.java
+  32: accountUpdateResponse = clientTenantARSettingsApply.getProxy().applyTenantDefaultSettings(tenantId, propertyId, companyProfileId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+252. word = [.getProxy().createNewPropertyARAccount]
+-----------------------------------------------------
+-----------------------------------------------------
+253. word = [.getProxy().findInventoryItemAllocatedDetails]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountCreate.java
+  68: return client.getProxy().findInventoryItemAllocatedDetails(tenantId, propertyId, startDate, endDate, itemIds);
+
+-----------------------------------------------------
+-----------------------------------------------------
+254. word = [.getProxy().viewFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioView.java
+  101: folioViewItems = client.getProxy().viewFolio(tenantId, propertyId, accountId, folioId, viewFolioRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+255. word = [.getProxy().createFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioCreate.java
+  180: folio = client.getProxy().createFolio(tenantId, propertyId, accountId, folioSummary);
+  335: folios = client.getProxy().createFolios(tenantId, propertyId, accountId, folioSummaries);
+
+-----------------------------------------------------
+-----------------------------------------------------
+256. word = [.getProxy().createAccount]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountCreate.java
+  52: accountDetail = client.getProxy().createAccount(tenantId, propertyId, createAccountSummary);
+
+-----------------------------------------------------
+-----------------------------------------------------
+257. word = [.getProxy().postCharge]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostCharge.java
+  328: lineItemViews = client.getProxy().postCharge(tenantId, propertyId, accountId, ignoreAuth, charge);
+  670: postChargesResponse = client.getProxy().postCharges(tenantId, propertyId, accountId, ignoreAuth, grouped, postChargesRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+258. word = [.getProxy().createFolios]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioCreate.java
+  335: folios = client.getProxy().createFolios(tenantId, propertyId, accountId, folioSummaries);
+
+-----------------------------------------------------
+-----------------------------------------------------
+259. word = [.getProxy().postPosCharge]
+-----------------------------------------------------
+-----------------------------------------------------
+260. word = [.getProxy().postCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostCharge.java
+  670: postChargesResponse = client.getProxy().postCharges(tenantId, propertyId, accountId, ignoreAuth, grouped, postChargesRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+261. word = [.getProxy().postCredit]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostCredit.java
+  229: lineItemView = client.getProxy().postCredit(tenantId, propertyId, accountId, credit);
+
+-----------------------------------------------------
+-----------------------------------------------------
+262. word = [.getProxy().correction]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostAdjustment.java
+  430: lineItemViews = client.getProxy().correction(tenantId, propertyId, accountId, lineItemAdjustment);
+
+-----------------------------------------------------
+-----------------------------------------------------
+263. word = [.getProxy().postRefunds]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostRefund.java
+  435: lineItemViews = client.getProxy().postRefunds(tenantId, propertyId, accountId, payment);
+
+-----------------------------------------------------
+-----------------------------------------------------
+264. word = [.getProxy().postPaymentAsync]
+-----------------------------------------------------
+-----------------------------------------------------
+265. word = [.getProxy().createInvoice]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\centralar\ClientCentralARCreateInvoice.java
+  22: return clientAccountServiceTenant.getProxy().createInvoices(tenantId, centralARRequest);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceCreate.java
+  79: invoiceView = client.getProxy().createInvoice(tenantId, propertyId, accountId, invoiceRequest);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceGet.java
+  213: client.getProxy().createInvoiceReport(tenantId, propertyId, accountId, "", "false");
+
+-----------------------------------------------------
+-----------------------------------------------------
+266. word = [.getProxy().findAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  514: return client.getProxy().findAccounts(tenantId, propertyId, accountsCollectionRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+267. word = [.getProxy().adjustment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostAdjustment.java
+  231: lineItemView = client.getProxy().adjustment(tenantId, propertyId, accountId, lineItemAdjustment);
+
+-----------------------------------------------------
+-----------------------------------------------------
+268. word = [.getProxy().refundPayment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostRefund.java
+  232: lineItemView = client.getProxy().refundPayment(tenantId, propertyId, accountId, paymentRefund);
+
+-----------------------------------------------------
+-----------------------------------------------------
+269. word = [.getProxy().postPosCredit]
+-----------------------------------------------------
+-----------------------------------------------------
+270. word = [.getProxy().postPayment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostPayment.java
+  266: Failsafe.with(retryPolicy).run(() -> lineItemViews = client.getProxy().postPayment(tenantId, propertyId, accountId, payment, reAuth));
+
+-----------------------------------------------------
+-----------------------------------------------------
+271. word = [.getProxy().payOffBalance]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountGet.java
+  563: client.getProxy().payOffBalance(tenantId, propertyId, accountId, payoffBalanceRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+272. word = [.getProxy().getPreferredCommunication]
+-----------------------------------------------------
+-----------------------------------------------------
+273. word = [.getProxy().createStatements]
+-----------------------------------------------------
+-----------------------------------------------------
+274. word = [.getProxy().createInvoices]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\centralar\ClientCentralARCreateInvoice.java
+  22: return clientAccountServiceTenant.getProxy().createInvoices(tenantId, centralARRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+275. word = [.getProxy().createAutoRecurringItems]
+-----------------------------------------------------
+-----------------------------------------------------
+276. word = [.getProxy().addCompReason]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoAdd.java
+  69: compInfo = client.getProxy().addCompReason(tenantId, "Default", compReason);
+
+-----------------------------------------------------
+-----------------------------------------------------
+277. word = [.getProxy().createAccountHistoryEvent]
+-----------------------------------------------------
+-----------------------------------------------------
+278. word = [.getProxy().getInvoiceHistoryEventsForARNumber]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\reporting\ClientAccountReceivableReportGet.java
+  30: return eventingServiceClient.getProxy().getInvoiceHistoryEventsForARNumber(tenantId, propertyId,
+
+-----------------------------------------------------
+-----------------------------------------------------
+279. word = [.getProxy().createHouseAccountCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryCreate.java
+  71: category = client.getProxy().createHouseAccountCategory(tenantId, propertyId, houseAccountCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+280. word = [.getProxy().createInventoryItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemCreate.java
+  98: return inventoryItemClient.getProxy().createInventoryItem(tenantId, propertyId, inventoryItem);
+
+-----------------------------------------------------
+-----------------------------------------------------
+281. word = [.getProxy().convertToInventoryItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemCreate.java
+  130: return inventoryItemClient.getProxy().convertToInventoryItem(tenantId, propertyId, inventoryItems);
+
+-----------------------------------------------------
+-----------------------------------------------------
+282. word = [.getProxy().migrateInventoryItems]
+-----------------------------------------------------
+-----------------------------------------------------
+283. word = [.getProxy().createLedgerSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ledger\ClientAccountLedgerSettingCreate.java
+  22: return ledgerSettingsClient.getProxy().createLedgerSetting(tenantId, propertyId, ledgerSettingView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+284. word = [.getProxy().indexAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\elasticsearch\ClientMaintenanceAccount.java
+  50: return accountMaintenanceClient.getProxy().indexAccounts(tenantID, updatedSince, updatedUntil);
+  59: return accountMaintenanceClient.getProxy().indexAccounts(indexRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+285. word = [.getProxy().indexAccounts]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\elasticsearch\ClientMaintenanceAccount.java
+  50: return accountMaintenanceClient.getProxy().indexAccounts(tenantID, updatedSince, updatedUntil);
+  59: return accountMaintenanceClient.getProxy().indexAccounts(indexRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+286. word = [.getProxy().createPayTransaction]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientPayAgentTransaction.java
+  25: return client.getProxy().createPayTransaction(tenantId, propertyId, request);
+
+-----------------------------------------------------
+-----------------------------------------------------
+287. word = [.getProxy().reportRemotePayTransaction]
+-----------------------------------------------------
+-----------------------------------------------------
+288. word = [.getProxy().createPaymentMethod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\method\ClientPaymentMethodCreate.java
+  71: method = client.getProxy().createPaymentMethod(tenantId, propertyId, paymentMethod);
+
+-----------------------------------------------------
+-----------------------------------------------------
+289. word = [.getProxy().postRecurringCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountPostRecurringCharge.java
+  111: recurringChargesPostingResult = client.getProxy().postRecurringCharges(tenantId, propertyId, propertyDate, terminalId, tag);
+
+-----------------------------------------------------
+-----------------------------------------------------
+290. word = [.getProxy().createRecurringCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeCreate.java
+  81: recurringChargeViews = client.getProxy().createRecurringCharges(tenantId, propertyId, accountId, createRecurringChargeList, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+291. word = [.getProxy().createRecurringCharge]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeCreate.java
+  59: recurringChargeViews = client.getProxy().createRecurringCharge(tenantId, propertyId, accountId, createRecurringCharge, startDate, endDate);
+  81: recurringChargeViews = client.getProxy().createRecurringCharges(tenantId, propertyId, accountId, createRecurringChargeList, startDate, endDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+292. word = [.getProxy().getRecurringChargesValidity]
+-----------------------------------------------------
+-----------------------------------------------------
+293. word = [.getProxy().getRecurringChargesValidityForCreate]
+-----------------------------------------------------
+-----------------------------------------------------
+294. word = [.getProxy().getEstimatedChargesByReservationIds]
+-----------------------------------------------------
+-----------------------------------------------------
+295. word = [.getProxy().getRoomRevenueForReservations]
+-----------------------------------------------------
+-----------------------------------------------------
+296. word = [.getProxy().getAccountBalances]
+-----------------------------------------------------
+-----------------------------------------------------
+297. word = [.getProxy().getTransactions]
+-----------------------------------------------------
+-----------------------------------------------------
+298. word = [.getProxy().createTaxGroup]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  51: return client.getProxy().createTaxGroup(tenantId, propertyId, taxGroupView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+299. word = [.getProxy().insertTaxGroups]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  35: return client.getProxy().insertTaxGroups(tenantId, propertyId, taxGroups);
+
+-----------------------------------------------------
+-----------------------------------------------------
+300. word = [.getProxy().createTransactionCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountingCategoryCreate.java
+  71: category = client.getProxy().createTransactionCategory(tenantId, propertyId, transactionCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+301. word = [.getProxy().migrateTransactionItems]
+-----------------------------------------------------
+-----------------------------------------------------
+302. word = [.getProxy().createTransactionItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemCreate.java
+  77: return transactionItemClient.getProxy().createTransactionItem(tenantId, propertyId, transactionItem);
+
+-----------------------------------------------------
+-----------------------------------------------------
+303. word = [.getProxy().createTransactionSubCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryCreate.java
+  72: subcategory = client.getProxy().createTransactionSubCategory(tenantId, propertyId, transactionSubCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+304. word = [.getProxy().createComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeCreate.java
+  69: type = client.getProxy().createCommentType(tenantId, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+305. word = [.getProxy().createComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeCreate.java
+  69: type = client.getProxy().createCommentType(tenantId, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+306. word = [.getProxy().copyComments]
+-----------------------------------------------------
+-----------------------------------------------------
+307. word = [.getProxy().getReservationPresetComments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientComment.java
+  61: comments = client.getProxy().getReservationPresetComments(tenantId, commentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+308. word = [.getProxy().createCommentType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeCreate.java
+  69: type = client.getProxy().createCommentType(tenantId, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+309. word = [.getProxy().getCommentsByAssociatedObjectIds]
+-----------------------------------------------------
+-----------------------------------------------------
+310. word = [.getProxy().send]
+-----------------------------------------------------
+-----------------------------------------------------
+311. word = [.getProxy().export]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientExportService.java
+  24: return accountExportServiceClient.getProxy().export(documentType, exportOptionalParameters);
+
+-----------------------------------------------------
+-----------------------------------------------------
+312. word = [.getProxy().executeCommand]
+-----------------------------------------------------
+-----------------------------------------------------
+313. word = [.getProxy().searchHistory]
+-----------------------------------------------------
+-----------------------------------------------------
+314. word = [.getProxy().search]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\group\ClientGroupSearch.java
+  47: groups = client.getProxy().searchGroupByTerms(tenantId, propertyId, searchRequest);
+  59: return client.getProxy().searchGroupByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\agent\ClientAgentProfileGet.java
+  408: return client.getProxy().searchAgentProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\company\ClientCompanyProfileGet.java
+  359: return client.getProxy().searchCompanyProfileByCriteria(tenantId, propertyId, criteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\profile\guest\ClientGuestProfileGet.java
+  359: return client.getProxy().searchGuestProfileByCriteria(tenantId, propertyId, searchCriteria);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationSearch.java
+  43: return client.getProxy().searchReservationsByCriteria(tenantId, propertyId, searchCriteria);
+
+-----------------------------------------------------
+-----------------------------------------------------
+315. word = [.getProxy().getPaymentInstrumentsForAccounts]
+-----------------------------------------------------
+-----------------------------------------------------
+316. word = [.getProxy().requestAuth]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  59: view = clientV1.getProxy().requestAuth(tenantId, propertyId, accountId, authRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+317. word = [.getProxy().requestVerify]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  381: view = clientV1.getProxy().requestVerify(tenantId, propertyId, verifyRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+318. word = [.getProxy().getCardBalance]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  172: balance = clientV1.getProxy().getCardBalance(tenantId, propertyId, verifyRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+319. word = [.getProxy().captureCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  228: capture = clientV1.getProxy().captureCard(tenantId, propertyId, accountId, captureRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+320. word = [.getProxy().refundCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  292: refund = clientV1.getProxy().refundCard(tenantId, propertyId, accountId, paymentInstrumentId, referenceId, refundRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+321. word = [.getProxy().authExistingCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  100: view = clientV1.getProxy().authExistingCard(tenantId, propertyId, accountId, paymentInstrumentId, authRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+322. word = [.getProxy().updatePaymentGatewaySettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\gateway\ClientPaymentGatewayUpsert.java
+  69: view = client.getProxy().updatePaymentGatewaySettings(tenantId, propertyId, paymentGatewaySettingsView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+323. word = [.getProxy().convertOfflineAuths]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  148: clientV1.getProxy().convertOfflineAuths(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+324. word = [.getProxy().voidAuthorization]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  128: clientV1.getProxy().voidAuthorization(tenantId, propertyId, accountId, paymentInstrumentId, paymentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+325. word = [.getProxy().captureExistingCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  259: capture = clientV1.getProxy().captureExistingCard(tenantId, propertyId, accountId, paymentInstrumentId, captureRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+326. word = [.getProxy().getExistingCardBalance]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  199: balance = clientV1.getProxy().getExistingCardBalance(tenantId, propertyId, paymentInstrumentId, paymentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+327. word = [.getProxy().storeCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  412: view = client.getProxy().storeCard(tenantId, propertyId, storeRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+328. word = [.getProxy().createPaymentInstrumentFromPayAuth]
+-----------------------------------------------------
+-----------------------------------------------------
+329. word = [.getProxy().requestAuth]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  59: view = clientV1.getProxy().requestAuth(tenantId, propertyId, accountId, authRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+330. word = [.getProxy().requestVerify]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  381: view = clientV1.getProxy().requestVerify(tenantId, propertyId, verifyRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+331. word = [.getProxy().getCardBalance]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  172: balance = clientV1.getProxy().getCardBalance(tenantId, propertyId, verifyRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+332. word = [.getProxy().captureCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  228: capture = clientV1.getProxy().captureCard(tenantId, propertyId, accountId, captureRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+333. word = [.getProxy().refundCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  292: refund = clientV1.getProxy().refundCard(tenantId, propertyId, accountId, paymentInstrumentId, referenceId, refundRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+334. word = [.getProxy().authExistingCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  100: view = clientV1.getProxy().authExistingCard(tenantId, propertyId, accountId, paymentInstrumentId, authRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+335. word = [.getProxy().getPaymentInstruments]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServiceGet.java
+  159: views = client.getProxy().getPaymentInstruments(tenantId, propertyId, accountId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+336. word = [.getProxy().convertOfflineAuths]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  148: clientV1.getProxy().convertOfflineAuths(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+337. word = [.getProxy().getPaymentInstrumentsForAccounts]
+-----------------------------------------------------
+-----------------------------------------------------
+338. word = [.getProxy().voidAuthorization]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  128: clientV1.getProxy().voidAuthorization(tenantId, propertyId, accountId, paymentInstrumentId, paymentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+339. word = [.getProxy().captureExistingCard]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  259: capture = clientV1.getProxy().captureExistingCard(tenantId, propertyId, accountId, paymentInstrumentId, captureRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+340. word = [.getProxy().getExistingCardBalance]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  199: balance = clientV1.getProxy().getExistingCardBalance(tenantId, propertyId, paymentInstrumentId, paymentRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+341. word = [.getProxy().createLostItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemCreate.java
+  44: return client.getProxy().createLostItem(tenantId, propertyId, lostItem);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  33: return client.getProxy().createLostItem(property.getTenantId(), property.getPropertyId(), lostItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+342. word = [.getProxy().searchLostAndFoundBySearchCriteria]
+-----------------------------------------------------
+-----------------------------------------------------
+343. word = [.getProxy().createFoundItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  48: return client.getProxy().createFoundItem(property.getTenantId(), property.getPropertyId(), foundItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+344. word = [.getProxy().rebuildReservations]
+-----------------------------------------------------
+-----------------------------------------------------
+345. word = [.getProxy().rebuildInventoryBlocks]
+-----------------------------------------------------
+-----------------------------------------------------
+346. word = [.getProxy().rebuildAll]
+-----------------------------------------------------
+-----------------------------------------------------
+347. word = [.getProxy().rebuildGroups]
+-----------------------------------------------------
+-----------------------------------------------------
+348. word = [.getProxy().createProfilePreferenceCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryCreate.java
+  66: createdCategory =  preferenceManagementClient.getProxy().createProfilePreferenceCategory(tenantId, category);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryCreateError.java
+  57: preferenceManagementClient.getProxy().createProfilePreferenceCategory(tenantId, category);
+
+-----------------------------------------------------
+-----------------------------------------------------
+349. word = [.getProxy().createProfilePreference]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryCreate.java
+  66: createdCategory =  preferenceManagementClient.getProxy().createProfilePreferenceCategory(tenantId, category);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryCreateError.java
+  57: preferenceManagementClient.getProxy().createProfilePreferenceCategory(tenantId, category);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCreate.java
+  43: createdPreference = preferenceManagementClient.getProxy().createProfilePreference(tenantId, preference.getProfileType(), preference);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCreateError.java
+  59: .getProxy().createProfilePreference(tenantId, preference.getProfileType(), preference);
+
+-----------------------------------------------------
+-----------------------------------------------------
+350. word = [.getProxy().sanitizeProfilePreferenceSelections]
+-----------------------------------------------------
+-----------------------------------------------------
+351. word = [.getProxy().getReservationAllocationResultsByIds]
+-----------------------------------------------------
+-----------------------------------------------------
+352. word = [.getProxy().getAvailability]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\availability\ClientRoomAvailabilityGet.java
+  75: availabilityResultDetail = client.getProxy().getAvailability(tenantId, propertyId, availabilityRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+353. word = [.getProxy().getRoomByDate]
+-----------------------------------------------------
+-----------------------------------------------------
+354. word = [.getProxy().batchRenewRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+355. word = [.getProxy().batchAssignRoom]
+-----------------------------------------------------
+-----------------------------------------------------
+356. word = [.getProxy().getAllocatedRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+357. word = [.getProxy().getDepositChargeAmount]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyGet.java
+  100: depositChargeAmount = client.getProxy().getDepositChargeAmount(tenantId, propertyId, depositChargeRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+358. word = [.getProxy().batchReleaseRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+359. word = [.getProxy().createInventoryBlock]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationCreate.java
+  38: allocationIdResult = client.getProxy().createInventoryBlockAllocation(tenantId, propertyId, overbook, inventoryBlockAllocationOrigin);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationCreateError.java
+  58: allocationIdResult = client.getProxy().createInventoryBlockAllocation(property.getTenantId(), property.getPropertyId(), overbook, inventoryBlockAllocationOrigin);
+  76: allocationIdResult = client.getProxy().createInventoryBlockAllocation(property.getTenantId(), property.getPropertyId(), overbook, inventoryBlockAllocationOrigin);
+
+-----------------------------------------------------
+-----------------------------------------------------
+360. word = [.getProxy().createReservationAllocationHold]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationCreate.java
+  69: allocationIdResult = client.getProxy().createReservationAllocationHold(tenantId, propertyId, overbook, reservationAllocationHold);
+
+-----------------------------------------------------
+-----------------------------------------------------
+361. word = [.getProxy().renewReservationAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  810: reservationAllocationResult = client.getProxy().renewReservationAllocation(tenantId, propertyId, id, overbook);
+
+-----------------------------------------------------
+-----------------------------------------------------
+362. word = [.getProxy().refreshRoomOccupancyStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+363. word = [.getProxy().autoAssignRoomAllocation]
+-----------------------------------------------------
+-----------------------------------------------------
+364. word = [.getProxy().batchAutoAssignRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+365. word = [.getProxy().getAllInventoryBlocksForRoomIds]
+-----------------------------------------------------
+-----------------------------------------------------
+366. word = [.getProxy().getGroupAllocations]
+-----------------------------------------------------
+-----------------------------------------------------
+367. word = [.getProxy().createInventoryBlockAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationCreate.java
+  38: allocationIdResult = client.getProxy().createInventoryBlockAllocation(tenantId, propertyId, overbook, inventoryBlockAllocationOrigin);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationCreateError.java
+  58: allocationIdResult = client.getProxy().createInventoryBlockAllocation(property.getTenantId(), property.getPropertyId(), overbook, inventoryBlockAllocationOrigin);
+  76: allocationIdResult = client.getProxy().createInventoryBlockAllocation(property.getTenantId(), property.getPropertyId(), overbook, inventoryBlockAllocationOrigin);
+
+-----------------------------------------------------
+-----------------------------------------------------
+368. word = [.getProxy().createGroupAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientGroupAllocationCreateGet.java
+  26: return client.getProxy().createGroupAllocation(tenantId, propertyId, overBook, groupAllocationOrigin);
+
+-----------------------------------------------------
+-----------------------------------------------------
+369. word = [.getProxy().repairReservationAllocation]
+-----------------------------------------------------
+-----------------------------------------------------
+370. word = [.getProxy().getReportingDetails]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  162: result = client.getProxy().getReportingDetails(tenantId, propertyId, request);
+
+-----------------------------------------------------
+-----------------------------------------------------
+371. word = [.getProxy().getProperties]
+-----------------------------------------------------
+-----------------------------------------------------
+372. word = [.getProxy().createBed]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\bed\ClientBedCreate.java
+  66: bed1 = client.getProxy().createBed(tenantId, propertyId, bed);
+
+-----------------------------------------------------
+-----------------------------------------------------
+373. word = [.getProxy().startDateRoll]
+-----------------------------------------------------
+-----------------------------------------------------
+374. word = [.getProxy().retryDateRoll]
+-----------------------------------------------------
+-----------------------------------------------------
+375. word = [.getProxy().createRooms]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomCreate.java
+  236: zimmer = client.getProxy().createRooms(tenantId, propertyId, rooms);
+
+-----------------------------------------------------
+-----------------------------------------------------
+376. word = [.getProxy().getPropertyDates]
+-----------------------------------------------------
+-----------------------------------------------------
+377. word = [.getProxy().createRoomClass]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassCreate.java
+  66: rmClass = client.getProxy().createRoomClass(tenantId, propertyId, roomClass);
+
+-----------------------------------------------------
+-----------------------------------------------------
+378. word = [.getProxy().requestDateRoll]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\roll\ClientDateRollRequest.java
+  178: client.getProxy().requestDateRoll(tenantId, propertyId, endingDate, terminalId, override);
+
+-----------------------------------------------------
+-----------------------------------------------------
+379. word = [.getProxy().createRoomType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeCreate.java
+  71: createdRoomType = client.getProxy().createRoomType(tenantId, propertyId, roomType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+380. word = [.getProxy().createBuilding]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\building\ClientBuildingCreate.java
+  71: createdBuilding = client.getProxy().createBuilding(tenantId, propertyId, building);
+
+-----------------------------------------------------
+-----------------------------------------------------
+381. word = [.getProxy().createVIPStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusCreate.java
+  71: wichtig = client.getProxy().createVIPStatus(tenantId, propertyId, vipStatus);
+
+-----------------------------------------------------
+-----------------------------------------------------
+382. word = [.getProxy().createOutlet]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletCreate.java
+  138: createdOutlet = client.getProxy().createOutlet(tenantId, propertyId, outlet);
+
+-----------------------------------------------------
+-----------------------------------------------------
+383. word = [.getProxy().findVIPStatuses]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusGet.java
+  137: vipStatuses = client.getProxy().findVIPStatuses(tenantId, propertyId, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+384. word = [.getProxy().createRoom]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryCreate.java
+  66: roomFeatureCategory1 = client.getProxy().createRoomFeatureCategory(tenantId, propertyId, roomFeatureCategory);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientInventoryStatus.java
+  42: return client.getProxy().createRoomInventoryStatus(tenantId, propertyId, r);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassCreate.java
+  66: rmClass = client.getProxy().createRoomClass(tenantId, propertyId, roomClass);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomCreate.java
+  124: zimmer = client.getProxy().createRoom(tenantId, propertyId, room);
+  236: zimmer = client.getProxy().createRooms(tenantId, propertyId, rooms);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureCreate.java
+  66: roomFeature1 = client.getProxy().createRoomFeature(tenantId, propertyId, roomFeature);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeCreate.java
+  71: createdRoomType = client.getProxy().createRoomType(tenantId, propertyId, roomType);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\service\ClientHousekeepingServiceTypeCreate.java
+  71: service = client.getProxy().createRoomServiceType(tenantId, propertyId, housekeepingServiceType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+385. word = [.getProxy().createMealPeriod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodCreate.java
+  70: createdMealPeriod = propertyClient.getProxy().createMealPeriod(tenantId, propertyId, mealPeriod);
+
+-----------------------------------------------------
+-----------------------------------------------------
+386. word = [.getProxy().createLostItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemCreate.java
+  44: return client.getProxy().createLostItem(tenantId, propertyId, lostItem);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  33: return client.getProxy().createLostItem(property.getTenantId(), property.getPropertyId(), lostItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+387. word = [.getProxy().addAnimal]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalAdd.java
+  37: return propertyManagementClient.getProxy().addAnimal(tenantId, propertyId, animal);
+  48: return propertyManagementClient.getProxy().addAnimalCharges(tenantId, propertyId, componentBundleList);
+
+-----------------------------------------------------
+-----------------------------------------------------
+388. word = [.getProxy().addAnimalCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalAdd.java
+  48: return propertyManagementClient.getProxy().addAnimalCharges(tenantId, propertyId, componentBundleList);
+
+-----------------------------------------------------
+-----------------------------------------------------
+389. word = [.getProxy().createHousekeepingRoomCondition]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\condition\ClientHousekeepingConditionCreate.java
+  60: condition = client.getProxy().createHousekeepingRoomCondition(tenantId, propertyId, housekeepingRoomCondition);
+
+-----------------------------------------------------
+-----------------------------------------------------
+390. word = [.getProxy().createHousekeepingSection]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionCreate.java
+  71: section = client.getProxy().createHousekeepingSection(tenantId, propertyId, housekeepingSection);
+
+-----------------------------------------------------
+-----------------------------------------------------
+391. word = [.getProxy().updateAccountingDateBalances]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountingDateUpdate.java
+  68: client.getProxy().updateAccountingDateBalances(tenantId, propertyId, updateAccountingDatesBalancesRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+392. word = [.getProxy().dateRollRoomStatusUpdate]
+-----------------------------------------------------
+-----------------------------------------------------
+393. word = [.getProxy().createCancellationPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\cancellation\ClientCancellationPolicyCreate.java
+  72: cancel = client.getProxy().createCancellationPolicy(tenantId, propertyId, policy);
+
+-----------------------------------------------------
+-----------------------------------------------------
+394. word = [.getProxy().createDepositPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyCreate.java
+  71: deposit = client.getProxy().createDepositPolicy(tenantId, propertyId, depositPolicy);
+
+-----------------------------------------------------
+-----------------------------------------------------
+395. word = [.getProxy().closeAccountingDate]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\date\ClientAccountDateClose.java
+  68: client.getProxy().closeAccountingDate(tenantId, propertyId, accountingDate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+396. word = [.getProxy().addRoomToHousekeepingSection]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionUpdate.java
+  168: housekeepingSection = client.getProxy().addRoomToHousekeepingSection(tenantId, propertyId, id, roomId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+397. word = [.getProxy().createOccupancyStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+398. word = [.getProxy().findRoomTypesForAllProperties]
+-----------------------------------------------------
+-----------------------------------------------------
+399. word = [.getProxy().createGeneralAreaType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeCreate.java
+  66: createdGeneralAreaType = client.getProxy().createGeneralAreaType(tenantId, propertyId, generalAreaType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+400. word = [.getProxy().getReportingDetails]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomGet.java
+  162: result = client.getProxy().getReportingDetails(tenantId, propertyId, request);
+
+-----------------------------------------------------
+-----------------------------------------------------
+401. word = [.getProxy().createGeneralAreas]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaCreate.java
+  126: generalAreas1 = client.getProxy().createGeneralAreas(tenantId, propertyId, generalAreas);
+
+-----------------------------------------------------
+-----------------------------------------------------
+402. word = [.getProxy().createStorageLocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\storage\location\ClientStorageLocationCreate.java
+  45: return client.getProxy().createStorageLocation(tenantId, propertyId, storageLocation);
+
+-----------------------------------------------------
+-----------------------------------------------------
+403. word = [.getProxy().addPerReservationCharges]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalAdd.java
+  75: return propertyManagementClient.getProxy().addPerReservationCharges(tenantId, propertyId, componentBundle);
+
+-----------------------------------------------------
+-----------------------------------------------------
+404. word = [.getProxy().createGeneralArea]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaCreate.java
+  70: generalArea1 = client.getProxy().createGeneralArea(tenantId, propertyId, generalArea);
+  126: generalAreas1 = client.getProxy().createGeneralAreas(tenantId, propertyId, generalAreas);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeCreate.java
+  66: createdGeneralAreaType = client.getProxy().createGeneralAreaType(tenantId, propertyId, generalAreaType);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\general\area\ClientGeneralAreaServiceTypeCreate.java
+  70: serviceType = client.getProxy().createGeneralAreaServiceType(tenantId, propertyId, housekeepingHousekeepingGeneralAreaServiceType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+405. word = [.getProxy().createCallAllowanceSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\call\allowance\settings\ClientCallAllowanceSettingsCreate.java
+  43: callAllowanceSettings = client.getProxy().createCallAllowanceSettings(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+406. word = [.getProxy().createOtaInterface]
+-----------------------------------------------------
+-----------------------------------------------------
+407. word = [.getProxy().createRoomInventoryStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientInventoryStatus.java
+  42: return client.getProxy().createRoomInventoryStatus(tenantId, propertyId, r);
+
+-----------------------------------------------------
+-----------------------------------------------------
+408. word = [.getProxy().createRoomFeature]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryCreate.java
+  66: roomFeatureCategory1 = client.getProxy().createRoomFeatureCategory(tenantId, propertyId, roomFeatureCategory);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureCreate.java
+  66: roomFeature1 = client.getProxy().createRoomFeature(tenantId, propertyId, roomFeature);
+
+-----------------------------------------------------
+-----------------------------------------------------
+409. word = [.getProxy().createRoomFeatureCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryCreate.java
+  66: roomFeatureCategory1 = client.getProxy().createRoomFeatureCategory(tenantId, propertyId, roomFeatureCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+410. word = [.getProxy().findRoomsAcrossProperties]
+-----------------------------------------------------
+-----------------------------------------------------
+411. word = [.getProxy().createReservationBookingNotice]
+-----------------------------------------------------
+-----------------------------------------------------
+412. word = [.getProxy().updateMultipleAccountingDateBalances]
+-----------------------------------------------------
+-----------------------------------------------------
+413. word = [.getProxy().getRatePlanComponentDetailsByTransactionItemIds]
+-----------------------------------------------------
+-----------------------------------------------------
+414. word = [.getProxy().createRateStrategy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\strategy\ClientRateStrategyCreate.java
+  69: rateStrategy = client.getProxy().createRateStrategy(tenantId, propertyId, rateStrategyDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+415. word = [.getProxy().createRateCalendar]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarCreate.java
+  67: rateCalendar = client.getProxy().createRateCalendar(tenantId, propertyId, rateCalendarDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+416. word = [.getProxy().createComponentBundles]
+-----------------------------------------------------
+-----------------------------------------------------
+417. word = [.getProxy().createComponentBundle]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\bundle\ClientComponentBundleCreate.java
+  71: bundelnKomponente = client.getProxy().createComponentBundle(tenantId, propertyId, componentBundle);
+
+-----------------------------------------------------
+-----------------------------------------------------
+418. word = [.getProxy().getComponentBundlesByIds]
+-----------------------------------------------------
+-----------------------------------------------------
+419. word = [.getProxy().createRatePlan]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanCreate.java
+  65: ratePlan = client.getProxy().createRatePlan(tenantId, propertyId, ratePlanDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+420. word = [.getProxy().createSetup]
+-----------------------------------------------------
+-----------------------------------------------------
+421. word = [.getProxy().orderRatePlans]
+-----------------------------------------------------
+-----------------------------------------------------
+422. word = [.getProxy().addComponent]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalAdd.java
+  62: return rateServiceClient.getProxy().addComponents(tenantId, propertyId, componentMap);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\bundle\ClientComponentBundleAdd.java
+  78: componentBundle = client.getProxy().addComponent(tenantId, propertyId, id, component);
+
+-----------------------------------------------------
+-----------------------------------------------------
+423. word = [.getProxy().createGroupRate]
+-----------------------------------------------------
+-----------------------------------------------------
+424. word = [.getProxy().addComponents]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalAdd.java
+  62: return rateServiceClient.getProxy().addComponents(tenantId, propertyId, componentMap);
+
+-----------------------------------------------------
+-----------------------------------------------------
+425. word = [.getProxy().getBalanceForToken]
+-----------------------------------------------------
+-----------------------------------------------------
+426. word = [.getProxy().getBalance]
+-----------------------------------------------------
+-----------------------------------------------------
+427. word = [.getProxy().createTokenForDevice]
+-----------------------------------------------------
+-----------------------------------------------------
+428. word = [.getProxy().createToken]
+-----------------------------------------------------
+-----------------------------------------------------
+429. word = [.getProxy().refundByTransaction]
+-----------------------------------------------------
+-----------------------------------------------------
+430. word = [.getProxy().saleWithCardToken]
+-----------------------------------------------------
+-----------------------------------------------------
+431. word = [.getProxy().getAuthWithCardData]
+-----------------------------------------------------
+-----------------------------------------------------
+432. word = [.getProxy().getAuthForToken]
+-----------------------------------------------------
+-----------------------------------------------------
+433. word = [.getProxy().getAuthReversal]
+-----------------------------------------------------
+-----------------------------------------------------
+434. word = [.getProxy().getAuthIncrease]
+-----------------------------------------------------
+-----------------------------------------------------
+435. word = [.getProxy().capture]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\service\ClientPaymentServicePost.java
+  228: capture = clientV1.getProxy().captureCard(tenantId, propertyId, accountId, captureRequest);
+  259: capture = clientV1.getProxy().captureExistingCard(tenantId, propertyId, accountId, paymentInstrumentId, captureRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+436. word = [.getProxy().forceCapture]
+-----------------------------------------------------
+-----------------------------------------------------
+437. word = [.getProxy().credit]
+-----------------------------------------------------
+-----------------------------------------------------
+438. word = [.getProxy().refundByToken]
+-----------------------------------------------------
+-----------------------------------------------------
+439. word = [.getProxy().sale]
+-----------------------------------------------------
+-----------------------------------------------------
+440. word = [.getProxy().getAuthDecrease]
+-----------------------------------------------------
+-----------------------------------------------------
+441. word = [.getProxy().updatePostingRules]
+-----------------------------------------------------
+-----------------------------------------------------
+442. word = [.getProxy().updateAccountStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountUpdate.java
+  201: client.getProxy().updateAccountStatus(tenantId, propertyId, id, accountStatus);
+
+-----------------------------------------------------
+-----------------------------------------------------
+443. word = [.getProxy().updatePostingRule]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\routing\rules\ClientRoutingRules.java
+  49: return accountServiceV1Client.getProxy().updatePostingRule(tenantId, propertyId, accountId, postingRuleDetail.getId(), postingRuleDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+444. word = [.getProxy().updateAccountsReceivableSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ClientAccountUpdate.java
+  310: accountSummary = client.getProxy().updateAccountsReceivableSettings(tenantId, propertyId, id, accountsReceivableSettings);
+
+-----------------------------------------------------
+-----------------------------------------------------
+445. word = [.getProxy().addInvoiceLineItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceUpdate.java
+  89: invoiceView = client.getProxy().addInvoiceLineItems(tenantId, propertyId, accountId, invoiceId, updateInvoiceLineItemsRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+446. word = [.getProxy().removeInvoiceLineItems]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceUpdate.java
+  157: invoiceView = client.getProxy().removeInvoiceLineItems(tenantId, propertyId, accountId, invoiceId, updateInvoiceLineItemsRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+447. word = [.getProxy().updateTenantDefaultSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tenantAR\ClientTenantARSettingsUpdate.java
+  30: tenantDefaultSettingsSummary1 = clientTenantARSettingsUpdate.getProxy().updateTenantDefaultSettings(tenantId, propertyId, companyProfileId, tenantDefaultSettingsSummary);
+
+-----------------------------------------------------
+-----------------------------------------------------
+448. word = [.getProxy().updateInvoiceTerms]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceUpdate.java
+  225: invoiceView = client.getProxy().updateInvoiceTerms(tenantId, propertyId, accountId, invoiceId, updateInvoiceTermsRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+449. word = [.getProxy().updateFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioUpdate.java
+  219: folio = client.getProxy().updateFolio(tenantId, propertyId, accountId, id, folioSummary);
+  374: folios = client.getProxy().updateFolios(tenantId, propertyId, accountId, folioSummaries);
+
+-----------------------------------------------------
+-----------------------------------------------------
+450. word = [.getProxy().updateFolios]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioUpdate.java
+  374: folios = client.getProxy().updateFolios(tenantId, propertyId, accountId, folioSummaries);
+
+-----------------------------------------------------
+-----------------------------------------------------
+451. word = [.getProxy().setInvoiceSent]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\invoice\ClientInvoiceUpdate.java
+  290: invoiceView = client.getProxy().setInvoiceSent(tenantId, propertyId, accountId, invoiceId, isEmail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+452. word = [.getProxy().updateInvoiceBalanceByInvoiceNumber]
+-----------------------------------------------------
+-----------------------------------------------------
+453. word = [.getProxy().updateAutoRecurringItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\autorecurringitem\ClientAutoRecurringItem.java
+  79: return client.getProxy().updateAutoRecurringItem(tenantId, propertyId, autoRecurringItemId,
+
+-----------------------------------------------------
+-----------------------------------------------------
+454. word = [.getProxy().setCompThreshold]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoSet.java
+  57: client.getProxy().setCompThreshold(tenantId, "Default", compThreshold);
+
+-----------------------------------------------------
+-----------------------------------------------------
+455. word = [.getProxy().updateCompReason]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\comp\info\ClientCompInfoUpdate.java
+  70: compInfo = client.getProxy().updateCompReason(tenantId, "Default", id, compReason);
+
+-----------------------------------------------------
+-----------------------------------------------------
+456. word = [.getProxy().updateHouseAccountCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryUpdate.java
+  73: category = client.getProxy().updateHouseAccountCategory(tenantId, propertyId, id, houseAccountCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+457. word = [.getProxy().updateInventoryItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountItemUpdate.java
+  138: item = inventoryItemClient.getProxy().updateInventoryItem(tenantId, propertyId, id, null, inventoryItem);
+
+-----------------------------------------------------
+-----------------------------------------------------
+458. word = [.getProxy().updateLedgerSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\ledger\ClientAccountLedgerSettingUpdate.java
+  23: return ledgerSettingsClient.getProxy().updateLedgerSetting(tenantId, propertyId, ledgerSettingId, ledgerSettingView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+459. word = [.getProxy().completePayTransaction]
+-----------------------------------------------------
+-----------------------------------------------------
+460. word = [.getProxy().updatePaymentMethod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\method\ClientPaymentMethodUpdate.java
+  90: method = client.getProxy().updatePaymentMethod(tenantId, propertyId, id, paymentMethod);
+
+-----------------------------------------------------
+-----------------------------------------------------
+461. word = [.getProxy().updateRecurringChargeOverride]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\transaction\ClientAccountRecurringChargeUpdate.java
+  92: recurringChargeView = client.getProxy().updateRecurringChargeOverride(tenantId, propertyId, accountId, recurringChargeId, overrideDate, createRecurringChargeOverride);
+
+-----------------------------------------------------
+-----------------------------------------------------
+462. word = [.getProxy().updateRecurringChargesOverride]
+-----------------------------------------------------
+-----------------------------------------------------
+463. word = [.getProxy().updateTaxGroups]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  67: return client.getProxy().updateTaxGroups(tenantId, propertyId, taxGroupView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+464. word = [.getProxy().updateTaxGroup]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  59: return client.getProxy().updateTaxGroup(tenantId, propertyId, taxgroupId, taxGroupView);
+  67: return client.getProxy().updateTaxGroups(tenantId, propertyId, taxGroupView);
+
+-----------------------------------------------------
+-----------------------------------------------------
+465. word = [.getProxy().updateTransactionCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountingCategoryUpdate.java
+  90: category = client.getProxy().updateTransactionCategory(tenantId, propertyId, id, transactionCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+466. word = [.getProxy().updateTransactionItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountItemUpdate.java
+  100: item = transactionItemClient.getProxy().updateTransactionItem(tenantId, propertyId, id, null, transactionItem);
+  167: item = transactionItemClient.getProxy().updateTransactionItem(tenantId, propertyId, id, params, transactionItem);
+
+-----------------------------------------------------
+-----------------------------------------------------
+467. word = [.getProxy().updateTransactionSubCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryUpdate.java
+  92: subcategory = client.getProxy().updateTransactionSubCategory(tenantId, propertyId, id, transactionSubCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+468. word = [.getProxy().reassociateCommentsToDifferentProfie]
+-----------------------------------------------------
+-----------------------------------------------------
+469. word = [.getProxy().updateComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeUpdate.java
+  71: type = client.getProxy().updateCommentType(tenantId, id, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+470. word = [.getProxy().updateComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeUpdate.java
+  71: type = client.getProxy().updateCommentType(tenantId, id, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+471. word = [.getProxy().updateCommentType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeUpdate.java
+  71: type = client.getProxy().updateCommentType(tenantId, id, commentType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+472. word = [.getProxy().updateFoundItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  53: return client.getProxy().updateFoundItem(property.getTenantId(), property.getPropertyId(), id, foundItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+473. word = [.getProxy().updateLostItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemUpdate.java
+  44: return client.getProxy().updateLostItem(tenantId, propertyId, lostItem);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  38: return client.getProxy().updateLostItem(property.getTenantId(), property.getPropertyId(), id, lostItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+474. word = [.getProxy().bulkEditLostAndFoundItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  63: client.getProxy().bulkEditLostAndFoundItem(property.getTenantId(), property.getPropertyId(), bulkEditRequest);
+
+-----------------------------------------------------
+-----------------------------------------------------
+475. word = [.getProxy().updateProfilePreference]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryUpdate.java
+  58: updatedCategory =  preferenceManagementClient.getProxy().updateProfilePreferenceCategory(tenantId, category.getId(), category);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesUpdate.java
+  69: .getProxy().updateProfilePreference(tenantId, preference.getProfileType(), preference.getId(), preference);
+
+-----------------------------------------------------
+-----------------------------------------------------
+476. word = [.getProxy().updateProfilePreferenceCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\preferences\ClientPreferencesCategoryUpdate.java
+  58: updatedCategory =  preferenceManagementClient.getProxy().updateProfilePreferenceCategory(tenantId, category.getId(), category);
+
+-----------------------------------------------------
+-----------------------------------------------------
+477. word = [.getProxy().updateReservationAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  136: client.getProxy().updateReservationAllocationBooking(tenantId, propertyId, id, reservationAllocationBooking);
+  279: allocationRoomsListResult = client.getProxy().updateReservationAllocation(tenantId, propertyId, id, overbook, reservationAllocationUpdate);
+  398: client.getProxy().updateReservationAllocationHold(tenantId, propertyId, id, reservationAllocationHoldUpdate);
+  535: client.getProxy().updateReservationAllocationRoomType(tenantId, propertyId, id, overbook, reservationAllocationRoomTypeUpdate);
+  680: allocatedRoomsListResult = client.getProxy().updateReservationAllocationRoom(tenantId, propertyId, id, overbook, reservationAllocationRoomUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+478. word = [.getProxy().updateReservationAllocationHold]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  398: client.getProxy().updateReservationAllocationHold(tenantId, propertyId, id, reservationAllocationHoldUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+479. word = [.getProxy().updateInventoryBlock]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationUpdate.java
+  40: return client.getProxy().updateInventoryBlockAllocation(tenantId, propertyId, id, overbook, inventoryBlockAllocationUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+480. word = [.getProxy().updateReservationAllocationRoom]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  535: client.getProxy().updateReservationAllocationRoomType(tenantId, propertyId, id, overbook, reservationAllocationRoomTypeUpdate);
+  680: allocatedRoomsListResult = client.getProxy().updateReservationAllocationRoom(tenantId, propertyId, id, overbook, reservationAllocationRoomUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+481. word = [.getProxy().updateGroupAllocation]
+-----------------------------------------------------
+-----------------------------------------------------
+482. word = [.getProxy().updateInventoryBlockAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationUpdate.java
+  40: return client.getProxy().updateInventoryBlockAllocation(tenantId, propertyId, id, overbook, inventoryBlockAllocationUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+483. word = [.getProxy().updateReservationAllocationRoomType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  535: client.getProxy().updateReservationAllocationRoomType(tenantId, propertyId, id, overbook, reservationAllocationRoomTypeUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+484. word = [.getProxy().updateReservationAllocationBooking]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationUpdate.java
+  136: client.getProxy().updateReservationAllocationBooking(tenantId, propertyId, id, reservationAllocationBooking);
+
+-----------------------------------------------------
+-----------------------------------------------------
+485. word = [.getProxy().updateHousekeepingSections]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionUpdate.java
+  75: sections = client.getProxy().updateHousekeepingSections(tenantId, propertyId, housekeepingSections);
+
+-----------------------------------------------------
+-----------------------------------------------------
+486. word = [.getProxy().updateCancellationPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\cancellation\ClientCancellationPolicyUpdate.java
+  74: cancel = client.getProxy().updateCancellationPolicy(tenantId, propertyId, id, policy);
+
+-----------------------------------------------------
+-----------------------------------------------------
+487. word = [.getProxy().updateHousekeepingRoomCondition]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\condition\ClientHousekeepingConditionUpdate.java
+  73: condition = client.getProxy().updateHousekeepingRoomCondition(tenantId, propertyId, id, housekeepingRoomCondition);
+
+-----------------------------------------------------
+-----------------------------------------------------
+488. word = [.getProxy().updateDepositPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyUpdate.java
+  74: policy = client.getProxy().updateDepositPolicy(tenantId, propertyId, id, deposit);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationUpdate.java
+  126: deposit = client.getProxy().updateDepositPolicy(tenantId, propertyId, id, optionalParams, depositPolicyInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+489. word = [.getProxy().updateRoomOccupancyDays]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomUpdate.java
+  95: client.getProxy().updateRoomOccupancyDays(tenantId, propertyId, roomId, occupiedDays);
+
+-----------------------------------------------------
+-----------------------------------------------------
+490. word = [.getProxy().updateRoomStatuses]
+-----------------------------------------------------
+-----------------------------------------------------
+491. word = [.getProxy().updateMultipleRooms]
+-----------------------------------------------------
+-----------------------------------------------------
+492. word = [.getProxy().updateOtaInterface]
+-----------------------------------------------------
+-----------------------------------------------------
+493. word = [.getProxy().updateOccupancyStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+494. word = [.getProxy().updateRoomInventoryStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+495. word = [.getProxy().updateGeneralAreaType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeUpdate.java
+  68: gaType = client.getProxy().updateGeneralAreaType(tenantId, propertyId, id, generalAreaType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+496. word = [.getProxy().updateRoomFeature]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryUpdate.java
+  66: roomFeatureCategory1 = client.getProxy().updateRoomFeatureCategory(tenantId, propertyId, id, roomFeatureCategory);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureUpdate.java
+  66: roomFeature1 = client.getProxy().updateRoomFeature(tenantId, propertyId, id, roomFeature);
+
+-----------------------------------------------------
+-----------------------------------------------------
+497. word = [.getProxy().updateGeneralArea]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaUpdate.java
+  71: generalArea1 = client.getProxy().updateGeneralArea(tenantId, propertyId, id, generalArea);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeUpdate.java
+  68: gaType = client.getProxy().updateGeneralAreaType(tenantId, propertyId, id, generalAreaType);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\general\area\ClientGeneralAreaServiceTypeUpdate.java
+  70: serviceType = client.getProxy().updateGeneralAreaServiceType(tenantId, propertyId, guestServiceType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+498. word = [.getProxy().updateRoomFeatureCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryUpdate.java
+  66: roomFeatureCategory1 = client.getProxy().updateRoomFeatureCategory(tenantId, propertyId, id, roomFeatureCategory);
+
+-----------------------------------------------------
+-----------------------------------------------------
+499. word = [.getProxy().updateStorageLocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\storage\location\ClientStorageLocationUpdate.java
+  44: return client.getProxy().updateStorageLocation(tenantId, propertyId, storageLocation);
+
+-----------------------------------------------------
+-----------------------------------------------------
+500. word = [.getProxy().updateMultipleGeneralAreas]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaUpdate.java
+  125: generalAreaList = client.getProxy().updateMultipleGeneralAreas(tenantId, propertyId, generalAreas);
+
+-----------------------------------------------------
+-----------------------------------------------------
+501. word = [.getProxy().setRoomAllocationType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomUpdate.java
+  84: client.getProxy().setRoomAllocationType(tenantId, propertyId, roomAllocationTypeSetting);
+
+-----------------------------------------------------
+-----------------------------------------------------
+502. word = [.getProxy().updateDefaultGroupShoulderDays]
+-----------------------------------------------------
+-----------------------------------------------------
+503. word = [.getProxy().updateRecentItemsTimePeriod]
+-----------------------------------------------------
+-----------------------------------------------------
+504. word = [.getProxy().updateCallAllowanceOnCallType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\call\allowance\settings\ClientCallAllowanceCallTypeUpdate.java
+  56: updatedCallAllowanceSettings = client.getProxy().updateCallAllowanceOnCallType(tenantId, propertyId,
+
+-----------------------------------------------------
+-----------------------------------------------------
+505. word = [.getProxy().updateReservationBookingNotice]
+-----------------------------------------------------
+-----------------------------------------------------
+506. word = [.getProxy().updateCallAllowanceSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\call\allowance\settings\ClientCallAllowanceSettingsUpdate.java
+  51: updatedCallAllowanceSettings = client.getProxy().updateCallAllowanceSettings(tenantId, propertyId,
+
+-----------------------------------------------------
+-----------------------------------------------------
+507. word = [.getProxy().updateLostItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lost\item\ClientLostItemUpdate.java
+  44: return client.getProxy().updateLostItem(tenantId, propertyId, lostItem);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\lost\and\found\lostandfound\ClientLostAndFound.java
+  38: return client.getProxy().updateLostItem(property.getTenantId(), property.getPropertyId(), id, lostItemInfo);
+
+-----------------------------------------------------
+-----------------------------------------------------
+508. word = [.getProxy().updateSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertySettings.java
+  31: return managementClient.getProxy().updateSettings(tenantId, propertyId,path, settings);
+
+-----------------------------------------------------
+-----------------------------------------------------
+509. word = [.getProxy().updatePetSetting]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalUpdate.java
+  43: return propertyManagementClient.getProxy().updatePetSetting(tenantId, propertyId, petSettings);
+
+-----------------------------------------------------
+-----------------------------------------------------
+510. word = [.getProxy().updateAnimal]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\pets\ClientAnimalUpdate.java
+  31: return propertyManagementClient.getProxy().updateAnimal(tenantId, propertyId, animal);
+
+-----------------------------------------------------
+-----------------------------------------------------
+511. word = [.getProxy().updateTenantDefaultSettingsApplied]
+-----------------------------------------------------
+-----------------------------------------------------
+512. word = [.getProxy().bulkUpdateReservationBookingNotice]
+-----------------------------------------------------
+-----------------------------------------------------
+513. word = [.getProxy().updateRoom]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryUpdate.java
+  66: roomFeatureCategory1 = client.getProxy().updateRoomFeatureCategory(tenantId, propertyId, id, roomFeatureCategory);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomUpdate.java
+  40: zimmer = client.getProxy().updateRoom(tenantId, propertyId, id, room);
+  72: client.getProxy().updateRoomStatus(tenantId, propertyId, id, statusUpdate);
+  95: client.getProxy().updateRoomOccupancyDays(tenantId, propertyId, roomId, occupiedDays);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureUpdate.java
+  66: roomFeature1 = client.getProxy().updateRoomFeature(tenantId, propertyId, id, roomFeature);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeUpdate.java
+  73: updateRoomType = client.getProxy().updateRoomType(tenantId, propertyId, id, roomType);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\service\ClientHousekeepingServiceTypeUpdate.java
+  69: service = client.getProxy().updateRoomServiceType(tenantId, propertyId, housekeepingServiceType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+514. word = [.getProxy().updateMealPeriod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodUpdate.java
+  68: period = propertyClient.getProxy().updateMealPeriod(tenantId, propertyId, mealPeriod.getId(), mealPeriod);
+
+-----------------------------------------------------
+-----------------------------------------------------
+515. word = [.getProxy().updateOutlet]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletUpdate.java
+  87: updateOutlet = client.getProxy().updateOutlet(tenantId, propertyId, id, outlet);
+
+-----------------------------------------------------
+-----------------------------------------------------
+516. word = [.getProxy().updateRoomClass]
+-----------------------------------------------------
+-----------------------------------------------------
+517. word = [.getProxy().resetRoomUsage]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomUpdate.java
+  107: client.getProxy().resetRoomUsage(tenantId, propertyId, resetRoomUsage);
+
+-----------------------------------------------------
+-----------------------------------------------------
+518. word = [.getProxy().updateBuilding]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\building\ClientBuildingUpdate.java
+  73: updatedBuilding = client.getProxy().updateBuilding(tenantId, propertyId, id, building);
+
+-----------------------------------------------------
+-----------------------------------------------------
+519. word = [.getProxy().updateVIPStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusUpdate.java
+  89: wichtig = client.getProxy().updateVIPStatus(tenantId, propertyId, id, vipStatus);
+
+-----------------------------------------------------
+-----------------------------------------------------
+520. word = [.getProxy().updateRoomType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeUpdate.java
+  73: updateRoomType = client.getProxy().updateRoomType(tenantId, propertyId, id, roomType);
+
+-----------------------------------------------------
+-----------------------------------------------------
+521. word = [.getProxy().updateProperty]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertyUpdate.java
+  104: property = client.getProxy().updateProperty(tenantId, propertyId, updateProperty);
+
+-----------------------------------------------------
+-----------------------------------------------------
+522. word = [.getProxy().updateBed]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\bed\ClientBedUpdate.java
+  66: bed1 = client.getProxy().updateBed(tenantId, propertyId, id, bed);
+
+-----------------------------------------------------
+-----------------------------------------------------
+523. word = [.getProxy().updateRoomStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomUpdate.java
+  72: client.getProxy().updateRoomStatus(tenantId, propertyId, id, statusUpdate);
+
+-----------------------------------------------------
+-----------------------------------------------------
+524. word = [.getProxy().updateRatePlan]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanUpdate.java
+  94: ratePlan = client.getProxy().updateRatePlan(tenantId, propertyId, id, ratePlanDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+525. word = [.getProxy().updateGroupRate]
+-----------------------------------------------------
+-----------------------------------------------------
+526. word = [.getProxy().updateComponent]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\bundle\ClientComponentBundleUpdate.java
+  80: componentBundle = client.getProxy().updateComponent(tenantId, propertyId, id, subId, component);
+
+-----------------------------------------------------
+-----------------------------------------------------
+527. word = [.getProxy().rateOverride]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRateOverride.java
+  69: detail = client.getProxy().rateOverride(tenantId, propertyId, rateOverrideDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+528. word = [.getProxy().updateUpgradeRates]
+-----------------------------------------------------
+-----------------------------------------------------
+529. word = [.getProxy().updateRateCalendar]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarUpdate.java
+  73: Preiskalender = client.getProxy().updateRateCalendar(tenantId, propertyId, id, rateCalendarDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+530. word = [.getProxy().updateRateStrategy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\strategy\ClientRateStrategyUpdate.java
+  102: rateStrategy = client.getProxy().updateRateStrategy(tenantId, propertyId, rateStrategyId, rateStrategyDetail);
+
+-----------------------------------------------------
+-----------------------------------------------------
+531. word = [.getProxy().deletePostingRule]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\routing\rules\ClientRoutingRules.java
+  64: accountServiceV1Client.getProxy().deletePostingRule(tenantId, propertyId, accountId, postingRuleId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+532. word = [.getProxy().deleteFolio]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\folio\ClientFolioDelete.java
+  197: client.getProxy().deleteFolio(tenantId, propertyId, accountId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+533. word = [.getProxy().deleteAutoRecurringItem]
+-----------------------------------------------------
+-----------------------------------------------------
+534. word = [.getProxy().deleteHouseAccountCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\house\account\ClientHouseAccountCategoryDelete.java
+  70: client.getProxy().deleteHouseAccountCategory(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+535. word = [.getProxy().deleteInventoryItem]
+-----------------------------------------------------
+-----------------------------------------------------
+536. word = [.getProxy().cancelPayTransaction]
+-----------------------------------------------------
+-----------------------------------------------------
+537. word = [.getProxy().deletePaymentMethod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\payment\method\ClientPaymentMethodDelete.java
+  78: client.getProxy().deletePaymentMethod(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+538. word = [.getProxy().deleteTaxGroup]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\tax\ClientTaxGroup.java
+  75: return client.getProxy().deleteTaxGroup(tenantId, propertyId, taxGroupId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+539. word = [.getProxy().deleteTransactionCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\category\transaction\ClientAccountCategoryDelete.java
+  26: client.getProxy().deleteTransactionCategory(tenantId, propertyId, itemId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+540. word = [.getProxy().deleteTransactionItem]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\item\ClientAccountingItemDelete.java
+  27: transactionItemClient.getProxy().deleteTransactionItem(tenantId, propertyId, itemId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+541. word = [.getProxy().deleteTransactionSubCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\account\subcategory\ClientAccountingSubcategoryDelete.java
+  25: client.getProxy().deleteTransactionSubCategory(tenantId, properyId, subCategoryId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+542. word = [.getProxy().deleteCommentType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeDelete.java
+  65: client.getProxy().deleteCommentType(tenantId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+543. word = [.getProxy().deleteComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeDelete.java
+  65: client.getProxy().deleteCommentType(tenantId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+544. word = [.getProxy().deleteComment]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\comment\ClientCommentTypeDelete.java
+  65: client.getProxy().deleteCommentType(tenantId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+545. word = [.getProxy().deleteInventoryBlock]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationDelete.java
+  53: client.getProxy().deleteInventoryBlockAllocations(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+546. word = [.getProxy().deleteInventoryBlockAllocations]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\inventory\block\ClientInventoryBlockAllocationDelete.java
+  53: client.getProxy().deleteInventoryBlockAllocations(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+547. word = [.getProxy().deleteReservationAllocation]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\allocation\ClientRoomAllocationDelete.java
+  122: client.getProxy().deleteReservationAllocation(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+548. word = [.getProxy().deleteDepositPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\deposit\ClientDepositPolicyDelete.java
+  68: client.getProxy().deleteDepositPolicy(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\reservation\ClientReservationDelete.java
+  89: client.getProxy().deleteDepositPolicy(tenantId, propertyId, id, optionalParams);
+
+-----------------------------------------------------
+-----------------------------------------------------
+549. word = [.getProxy().deleteCancellationPolicy]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\policy\cancellation\ClientCancellationPolicyDelete.java
+  80: client.getProxy().deleteCancellationPolicy(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+550. word = [.getProxy().deleteHousekeepingRoomCondition]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\condition\ClientHousekeepingConditionDelete.java
+  67: client.getProxy().deleteHousekeepingRoomCondition(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+551. word = [.getProxy().deleteRoomFeature]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryDelete.java
+  49: client.getProxy().deleteRoomFeatureCategory(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureDelete.java
+  49: client.getProxy().deleteRoomFeature(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+552. word = [.getProxy().deleteRoomFeatureCategory]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryDelete.java
+  49: client.getProxy().deleteRoomFeatureCategory(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+553. word = [.getProxy().deleteRoomInventoryStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+554. word = [.getProxy().deleteOtaInterface]
+-----------------------------------------------------
+-----------------------------------------------------
+555. word = [.getProxy().deleteGeneralAreaType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeDelete.java
+  62: client.getProxy().deleteGeneralAreaType(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+556. word = [.getProxy().deleteHousekeepingSection]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\house\keeping\section\ClientHousekeepingSectionDelete.java
+  91: client.getProxy().deleteHousekeepingSection(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+557. word = [.getProxy().deleteGeneralArea]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\ClientGeneralAreaDelete.java
+  25: client.getProxy().deleteGeneralArea(tenantId, propertyId, generalAreaId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\general\area\type\ClientGeneralAreaTypeDelete.java
+  62: client.getProxy().deleteGeneralAreaType(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+558. word = [.getProxy().deleteOccupancyStatus]
+-----------------------------------------------------
+-----------------------------------------------------
+559. word = [.getProxy().deleteMealPeriods]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodDelete.java
+  82: //            client.getProxy().deleteMealPeriods(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+560. word = [.getProxy().deleteChargeById]
+-----------------------------------------------------
+-----------------------------------------------------
+561. word = [.getProxy().deleteOutlets]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletDelete.java
+  67: //            client.getProxy().deleteOutlets(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+562. word = [.getProxy().deleteVIPStatus]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\vip\ClientVIPStatusDelete.java
+  80: client.getProxy().deleteVIPStatus(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+563. word = [.getProxy().deleteSettings]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertySettings.java
+  39: return managementClient.getProxy().deleteSettings(tenantId, propertyId,path);
+
+-----------------------------------------------------
+-----------------------------------------------------
+564. word = [.getProxy().deleteRoomType]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeDelete.java
+  80: client.getProxy().deleteRoomType(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+565. word = [.getProxy().deleteRoom]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\category\ClientRoomFeatureCategoryDelete.java
+  49: client.getProxy().deleteRoomFeatureCategory(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassDelete.java
+  26: client.getProxy().deleteRoomClass(tenantId, propertyId, roomClassId);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomDelete.java
+  69: client.getProxy().deleteRoom(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\feature\ClientRoomFeatureDelete.java
+  49: client.getProxy().deleteRoomFeature(tenantId, propertyId, id);
+
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\type\ClientRoomTypeDelete.java
+  80: client.getProxy().deleteRoomType(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+566. word = [.getProxy().deleteProperty]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\property\ClientPropertyDelete.java
+  71: client.getProxy().deleteProperty(tenantId, propertyId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+567. word = [.getProxy().deleteOutlet]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\outlet\ClientOutletDelete.java
+  55: client.getProxy().deleteOutlet(tenantId, propertyId, id);
+  67: //            client.getProxy().deleteOutlets(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+568. word = [.getProxy().deleteBed]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\bed\ClientBedDelete.java
+  63: client.getProxy().deleteBed(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+569. word = [.getProxy().deleteRoomClass]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\area\room\ClientRoomClassDelete.java
+  26: client.getProxy().deleteRoomClass(tenantId, propertyId, roomClassId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+570. word = [.getProxy().deleteBuilding]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\building\ClientBuildingDelete.java
+  80: client.getProxy().deleteBuilding(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+571. word = [.getProxy().deleteMealPeriod]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\meal\period\ClientMealPeriodDelete.java
+  62: client.getProxy().deleteMealPeriod(tenantId, propertyId, mealPeriod.getId());
+  82: //            client.getProxy().deleteMealPeriods(tenantId, propertyId, ids);
+
+-----------------------------------------------------
+-----------------------------------------------------
+572. word = [.getProxy().deleteRateCalendar]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\calendar\ClientRateCalendarDelete.java
+  69: client.getProxy().deleteRateCalendar(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+573. word = [.getProxy().deleteRateStrategy]
+-----------------------------------------------------
+-----------------------------------------------------
+574. word = [.getProxy().deleteComponentBundleById]
+-----------------------------------------------------
+-----------------------------------------------------
+575. word = [.getProxy().deleteRatePlan]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\plan\ClientRatePlanDelete.java
+  82: client.getProxy().deleteRatePlan(tenantId, propertyId, id);
+
+-----------------------------------------------------
+-----------------------------------------------------
+576. word = [.getProxy().deleteGroupRate]
+-----------------------------------------------------
+-----------------------------------------------------
+577. word = [.getProxy().deleteComponent]
+C:\Automation1\karatmeter\src\main\java\com\agilysys\qa\client\rate\bundle\ClientComponentBundleDelete.java
+  78: componentBundle = client.getProxy().deleteComponent(tenantId, propertyId, id, subId);
+
+-----------------------------------------------------
+-----------------------------------------------------
+578. word = null

@@ -1,0 +1,101 @@
+/*
+ * (C) 2019 Agilysys NV, LLC.  All Rights Reserved.  Confidential Information of Agilysys NV, LLC.
+ */
+package com.agilysys.pms.account.data.domain;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.commons.collections.CollectionUtils;
+
+import com.agilysys.pms.account.model.PantryItemDetails;
+
+public class PantryItemDetailsDomain {
+    private String description;
+    private String itemId;
+    private BigDecimal price;
+    private BigDecimal defaultPrice;//added 
+    private int quantity;
+
+    public PantryItemDetailsDomain() {}
+
+    public PantryItemDetailsDomain(String itemId, String description, BigDecimal price, int quantity) {
+        this.itemId = itemId;
+        this.description = description;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public PantryItemDetailsDomain(String itemId, String description, BigDecimal price, int quantity, BigDecimal defaultPrice) {//added 
+        this(itemId, description, price, quantity);//added 
+        this.defaultPrice = defaultPrice;//added 
+    }//added 
+//added 
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+//added 
+    public String getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(String itemId) {
+        this.itemId = itemId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public BigDecimal getDefaultPrice() {//added 
+        return defaultPrice;//added 
+    }//added 
+//added 
+    public void setDefaultPrice(BigDecimal defaultPrize) {//added 
+        this.defaultPrice = defaultPrice;//added 
+    }//added 
+//added 
+    public static List<PantryItemDetailsDomain> toDomains(List<PantryItemDetails> models) {
+        if (CollectionUtils.isEmpty(models)) {
+            return Collections.emptyList();
+        }
+        List<PantryItemDetailsDomain> domains = new ArrayList<>(models.size());
+        models.forEach(model -> domains
+              .add(new PantryItemDetailsDomain(model.getItemId(), model.getDescription(), model.getPrice(),
+                    model.getQuantity(), model.getDefaultPrice())));//added 
+                    model.getQuantity())));//deleted 
+        return domains;
+    }
+
+    public static List<PantryItemDetails> toModels(List<PantryItemDetailsDomain> domains) {
+        if (CollectionUtils.isEmpty(domains)) {
+            return Collections.emptyList();
+        }
+        List<PantryItemDetails> models = new ArrayList<>(domains.size());
+        domains.forEach(domain -> models
+              .add(new PantryItemDetails(domain.getItemId(), domain.getDescription(), domain.getPrice(),
+                    domain.getQuantity(), domain.getDefaultPrice())));//added 
+                    domain.getQuantity())));//deleted 
+        return models;
+    }
+}
+

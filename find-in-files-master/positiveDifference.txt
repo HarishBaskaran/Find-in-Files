@@ -1,0 +1,26 @@
+	19	    private BigDecimal defaultPrice;
+	31	    public PantryItemDetailsDomain(String itemId, String description, BigDecimal price, int quantity, BigDecimal defaultPrice) {
+	32	        this(itemId, description, price, quantity);
+	33	        this.defaultPrice = defaultPrice;
+	34	    }
+	69	    public BigDecimal getDefaultPrice() {
+	70	        return defaultPrice;
+	71	    }
+	73	    public void setDefaultPrice(BigDecimal defaultPrize) {
+	74	        this.defaultPrice = defaultPrice;
+	75	    }
+	84	                    model.getQuantity(), model.getDefaultPrice())));
+	95	                    domain.getQuantity(), domain.getDefaultPrice())));
+	19	    private BigDecimal defaultPrice;
+	31	    public PantryItemDetailsDomain(String itemId, String description, BigDecimal price, int quantity, BigDecimal defaultPrice) {
+	32	        this(itemId, description, price, quantity);
+	33	        this.defaultPrice = defaultPrice;
+	34	    }
+	69	    public BigDecimal getDefaultPrice() {
+	70	        return defaultPrice;
+	71	    }
+	73	    public void setDefaultPrice(BigDecimal defaultPrize) {
+	74	        this.defaultPrice = defaultPrice;
+	75	    }
+	84	                    model.getQuantity(), model.getDefaultPrice())));
+	95	                    domain.getQuantity(), domain.getDefaultPrice())));
